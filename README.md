@@ -9,7 +9,7 @@ Develop an appication using [Next.js](https://nextjs.org/) and [Chakra UI](https
 
 The application should be responsive and adapt for web and mobile.
 
-![world trip home page](https://github.com/Bignotto/ignite-react-challenge-06/blob/master/WorldTripHome.png)
+![world trip home page](https://github.com/Bignotto/ignite-react-challenge-06/blob/master/public/images/WorldTripHome.png)
 
 ## Application Pages
 
