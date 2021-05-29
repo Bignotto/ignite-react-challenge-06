@@ -1,6 +1,20 @@
-import { Text, Image, Flex, Box, HStack } from "@chakra-ui/react";
+import {
+  Text,
+  Image,
+  Flex,
+  Box,
+  HStack,
+  useBreakpointValue,
+} from "@chakra-ui/react";
 import { Header } from "../components/Header";
+
 export default function Home() {
+  const isWide = useBreakpointValue({
+    base: false,
+    lg: true,
+  });
+
+  console.log(isWide);
   return (
     <>
       <Header />
@@ -15,9 +29,15 @@ export default function Home() {
               Chegou a hora de tirar do papel a viagem que você sempre sonhou.
             </Text>
           </Box>
-          <Box>
-            <Image src="/images/Airplane.png" objectFit="contain" maxW={417} />
-          </Box>
+          {isWide && (
+            <Box>
+              <Image
+                src="/images/Airplane.png"
+                objectFit="contain"
+                maxW={417}
+              />
+            </Box>
+          )}
         </HStack>
       </Flex>
     </>
