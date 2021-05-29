@@ -1,5 +1,10 @@
-import { Text } from "@chakra-ui/react";
+import { Text, Image } from "@chakra-ui/react";
 import { Header } from "../components/Header";
 export default function Home() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Image src="/images/Background.png" />
+    </>
+  );
 }

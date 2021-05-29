@@ -1,9 +1,9 @@
-import { Image, Box } from "@chakra-ui/react";
+import { Image, Flex, Center } from "@chakra-ui/react";
 
 export function Logo() {
   return (
-    <Box>
-      <Image src="/images/Logo.svg" boxSize={[150, 188]} objectFit="contain" />
-    </Box>
+    <Center>
+      <Image src="/images/Logo.svg" w={[81, 184]} objectFit="contain" />
+    </Center>
   );
 }
