@@ -8,6 +8,7 @@ import {
   Spacer,
   Stack,
   SimpleGrid,
+  Divider,
 } from "@chakra-ui/react";
 import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
@@ -50,6 +51,7 @@ export default function Home() {
           p="3"
           w="100%"
           maxWidth={1000}
+          justifyContent="space-between"
         >
           <CategoryButton
             category="vida noturna"
@@ -78,36 +80,15 @@ export default function Home() {
           />
         </SimpleGrid>
       </Flex>
+      <Box w="80px" h="0.5" bg="gray.600" mt="10"></Box>
+      <Flex mt="10" align="center" flexDirection="column">
+        <Text mt="2" fontSize={["xl", "3xl"]}>
+          Vamos nessa?
+        </Text>
+        <Text mt="2" fontSize={["xl", "3xl"]}>
+          Então escolha seu continente
+        </Text>
+      </Flex>
     </Flex>
   );
 }
-
-/**
-         <Stack direction={isWide ? "row" : "column"} spacing={[12, 36]}>
-          <CategoryButton
-            category="vida noturna"
-            image="/images/cocktail.svg"
-            isWide={isWide}
-          />
-          <CategoryButton
-            category="praia"
-            image="/images/surf.svg"
-            isWide={isWide}
-          />
-          <CategoryButton
-            category="moderno"
-            image="/images/building.svg"
-            isWide={isWide}
-          />
-          <CategoryButton
-            category="clássico"
-            image="/images/museum.svg"
-            isWide={isWide}
-          />
-          <CategoryButton
-            category="e mais..."
-            image="/images/earth.svg"
-            isWide={isWide}
-          />
-        </Stack>
- */
