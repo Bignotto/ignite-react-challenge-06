@@ -6,6 +6,7 @@ import {
   HStack,
   useBreakpointValue,
   Spacer,
+  Stack,
 } from "@chakra-ui/react";
 import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
@@ -17,17 +18,20 @@ export default function Home() {
   });
 
   return (
-    <Flex w="100vw" h="100vh" align="center" direction="column">
+    <Flex align="center" direction="column">
       <Header />
-      <Image src="/images/Background.png" objectFit="cover" w="100%" h={335} />
-      <Flex mt={-250} maxW={1440} justifyContent="center">
-        <HStack>
-          <Box maxW={500}>
+      {/* <Image src="/images/Background.png" objectFit="cover" w="100%" h={335} /> */}
+      <Flex justifyContent="center">
+        <HStack spacing="40">
+          <Box bgImage="/images/Background.png">
             <Text fontSize={36} color="gray.50">
-              5 Continentes, infinitas possibilidades.
+              5 Continentes, infinitas
+              <br />
+              possibilidades.
             </Text>
             <Text fontSize={20} color="gray.50">
-              Chegou a hora de tirar do papel a viagem que você sempre sonhou.
+              Chegou a hora de tirar do papel
+              <br />a viagem que você sempre sonhou.
             </Text>
           </Box>
           {isWide && (
@@ -42,7 +46,7 @@ export default function Home() {
         </HStack>
       </Flex>
       <Flex w="100%" maxW={1440} justifyContent="center" mt="20">
-        <HStack spacing="36">
+        <Stack direction={isWide ? "row" : "column"} spacing="36">
           <CategoryButton
             category="vida noturna"
             image="/images/cocktail.svg"
@@ -68,7 +72,7 @@ export default function Home() {
             image="/images/earth.svg"
             isWide={isWide}
           />
-        </HStack>
+        </Stack>
       </Flex>
     </Flex>
   );
