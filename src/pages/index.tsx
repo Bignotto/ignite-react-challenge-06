@@ -5,7 +5,9 @@ import {
   Box,
   HStack,
   useBreakpointValue,
+  Spacer,
 } from "@chakra-ui/react";
+import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
 
 export default function Home() {
@@ -18,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Image src="/images/Background.png" objectFit="cover" h="100%" />
+      <Image src="/images/Background.png" objectFit="cover" w="100%" h={335} />
       <Flex mt={-250} maxW={1440} justifyContent="center">
         <HStack>
           <Box maxW={500}>
@@ -38,6 +40,18 @@ export default function Home() {
               />
             </Box>
           )}
+        </HStack>
+      </Flex>
+      <Flex w="100%" maxW={1440} justifyContent="center" mt="20">
+        <HStack spacing="36">
+          <CategoryButton
+            category="vida noturna"
+            image="/images/cocktail.svg"
+          />
+          <CategoryButton category="praia" image="/images/surf.svg" />
+          <CategoryButton category="moderno" image="/images/building.svg" />
+          <CategoryButton category="clássico" image="/images/museum.svg" />
+          <CategoryButton category="e mais" image="/images/earth.svg" />
         </HStack>
       </Flex>
     </>
