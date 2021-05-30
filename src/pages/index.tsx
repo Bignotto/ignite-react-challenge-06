@@ -16,7 +16,6 @@ export default function Home() {
     lg: true,
   });
 
-  console.log(isWide);
   return (
     <Flex w="100vw" h="100vh" align="center" direction="column">
       <Header />
@@ -47,11 +46,28 @@ export default function Home() {
           <CategoryButton
             category="vida noturna"
             image="/images/cocktail.svg"
+            isWide={isWide}
           />
-          <CategoryButton category="praia" image="/images/surf.svg" />
-          <CategoryButton category="moderno" image="/images/building.svg" />
-          <CategoryButton category="clássico" image="/images/museum.svg" />
-          <CategoryButton category="e mais" image="/images/earth.svg" />
+          <CategoryButton
+            category="praia"
+            image="/images/surf.svg"
+            isWide={isWide}
+          />
+          <CategoryButton
+            category="moderno"
+            image="/images/building.svg"
+            isWide={isWide}
+          />
+          <CategoryButton
+            category="clássico"
+            image="/images/museum.svg"
+            isWide={isWide}
+          />
+          <CategoryButton
+            category="e mais"
+            image="/images/earth.svg"
+            isWide={isWide}
+          />
         </HStack>
       </Flex>
     </Flex>

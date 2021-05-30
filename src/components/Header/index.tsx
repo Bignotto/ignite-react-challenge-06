@@ -6,15 +6,14 @@ export function Header() {
   return (
     <Flex
       as="header"
-      w="100%"
-      maxWidth={1480}
+      maxWidth={1000}
       h="20"
       mt="4"
       px="6"
       align="center"
       justify="center"
     >
-      <SimpleGrid columns={3} flex="1">
+      <SimpleGrid columns={3} flex="1" w="100%">
         <BackButton />
         <Logo />
         <Text>{` `}</Text>
