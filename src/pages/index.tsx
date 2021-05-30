@@ -18,7 +18,7 @@ export default function Home() {
 
   console.log(isWide);
   return (
-    <>
+    <Flex w="100vw" h="100vh" align="center" direction="column">
       <Header />
       <Image src="/images/Background.png" objectFit="cover" w="100%" h={335} />
       <Flex mt={-250} maxW={1440} justifyContent="center">
@@ -54,6 +54,6 @@ export default function Home() {
           <CategoryButton category="e mais" image="/images/earth.svg" />
         </HStack>
       </Flex>
-    </>
+    </Flex>
   );
 }
