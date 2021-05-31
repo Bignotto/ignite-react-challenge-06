@@ -5,13 +5,16 @@ import {
   Box,
   HStack,
   useBreakpointValue,
-  Spacer,
-  Stack,
   SimpleGrid,
-  Divider,
 } from "@chakra-ui/react";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper/core";
+
 import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
+
+SwiperCore.use([Navigation]);
 
 export default function Home() {
   const isWide = useBreakpointValue({
@@ -88,6 +91,24 @@ export default function Home() {
         <Text mt="2" fontSize={["xl", "3xl"]}>
           Então escolha seu continente
         </Text>
+      </Flex>
+
+      <Flex
+        w="100%"
+        maxWidth="1240px"
+        mx="auto"
+        mb={["5", "10"]}
+        h={["250px", "450px"]}
+        mt="10"
+      >
+        <Swiper navigation={true} className="mySwiper">
+          <SwiperSlide>
+            <Image src="/images/Airplane.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/Background.png" />
+          </SwiperSlide>
+        </Swiper>
       </Flex>
     </Flex>
   );
