@@ -101,12 +101,51 @@ export default function Home() {
         h={["250px", "450px"]}
         mt="10"
       >
-        <Swiper navigation={true} className="mySwiper">
+        <Swiper
+          slidesPerView={1} // uma imagem exibida somente
+          navigation
+          pagination={{ clickable: true }}
+          style={{ width: "100%", flex: "1" }}
+        >
           <SwiperSlide>
-            <Image src="/images/Airplane.png" />
+            <Flex
+              bgSize="cover"
+              w="100%"
+              h="100%"
+              alignItems="center"
+              justify="center"
+              direction="column"
+              position="relative"
+            >
+              <Image src="/images/continents/africa01.jpg" />
+              <Box position="absolute">
+                <Text
+                  color="green.50"
+                  fontSize={["3xl", "7xl"]}
+                  fontWeight="bold"
+                >
+                  Africa
+                </Text>
+                <Text color="green.50" fontSize={["1xl", "4xl"]}>
+                  Selvagem e desafiador!
+                </Text>
+              </Box>
+            </Flex>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/Background.png" />
+            <Image src="/images/continents/asia01.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/europe04.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/na04.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/oceania03.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/sa02.jpg" />
           </SwiperSlide>
         </Swiper>
       </Flex>
