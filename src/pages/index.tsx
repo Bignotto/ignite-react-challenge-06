@@ -5,13 +5,16 @@ import {
   Box,
   HStack,
   useBreakpointValue,
-  Spacer,
-  Stack,
   SimpleGrid,
-  Divider,
 } from "@chakra-ui/react";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper/core";
+
 import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
+
+SwiperCore.use([Navigation]);
 
 export default function Home() {
   const isWide = useBreakpointValue({
@@ -88,6 +91,63 @@ export default function Home() {
         <Text mt="2" fontSize={["xl", "3xl"]}>
           Então escolha seu continente
         </Text>
+      </Flex>
+
+      <Flex
+        w="100%"
+        maxWidth="1240px"
+        mx="auto"
+        mb={["5", "10"]}
+        h={["250px", "450px"]}
+        mt="10"
+      >
+        <Swiper
+          slidesPerView={1} // uma imagem exibida somente
+          navigation
+          pagination={{ clickable: true }}
+          style={{ width: "100%", flex: "1" }}
+        >
+          <SwiperSlide>
+            <Flex
+              bgSize="cover"
+              w="100%"
+              h="100%"
+              alignItems="center"
+              justify="center"
+              direction="column"
+              position="relative"
+            >
+              <Image src="/images/continents/africa01.jpg" />
+              <Box position="absolute">
+                <Text
+                  color="green.50"
+                  fontSize={["3xl", "7xl"]}
+                  fontWeight="bold"
+                >
+                  Africa
+                </Text>
+                <Text color="green.50" fontSize={["1xl", "4xl"]}>
+                  Selvagem e desafiador!
+                </Text>
+              </Box>
+            </Flex>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/asia01.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/europe04.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/na04.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/oceania03.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/continents/sa02.jpg" />
+          </SwiperSlide>
+        </Swiper>
       </Flex>
     </Flex>
   );
