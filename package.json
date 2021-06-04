@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "fake": "npx json-server --watch .\\server\\database.json -p 3333"
+    "fake": "json-server --watch server/database.json -p 3333"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
