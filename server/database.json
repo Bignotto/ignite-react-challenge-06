@@ -4,37 +4,49 @@
       "id": 1,
       "Continent": "Africa",
       "Name": "África",
-      "Description": "Selvagem e desafiador."
+      "Description": "Selvagem e desafiador.",
+      "QtdCountries": 54,
+      "Text": "A África é banhada pelo oceano Atlântico na sua costa ocidental e pelo oceano Índico do lado oriental. Ao norte, pelos mares Mediterrâneo e Vermelho e ao sul, pelo Mar Antártico."
     },
     {
       "id": 2,
       "Continent": "Asia",
       "Name": "Ásia",
-      "Description": "O continente mais enigmático."
+      "Description": "O continente mais enigmático.",
+      "QtdCountries": 47,
+      "Text": "A Ásia é o maior continente, tanto em área (chega a quase um terço de todas as terras emersas do nosso planeta) como em população, onde habitam aproximadamente 4,5 bilhões de habitantes. Esse número que supera quase 50% da população do mundo, corresponde a 70 habitantes por quilômetro quadrado, aproximadamente três vezes maior que a densidade média da Terra."
     },
     {
       "id": 3,
       "Continent": "Europe",
       "Name": "Europa",
-      "Description": "O continente mais antigo."
+      "Description": "O continente mais antigo.",
+      "QtdCountries": 43,
+      "Text": "A Europa é um continente que está localizado no hemisfério norte do globo terrestre. Compreende uma área total de 10.498.000 km2 e possui uma população de 744,7 milhões de habitantes."
     },
     {
       "id": 4,
       "Continent": "NorthAmerica",
       "Name": "América do Norte",
-      "Description": "Liberdade e modernidade."
+      "Description": "Liberdade e modernidade.",
+      "QtdCountries": 4,
+      "Text": "Ele exibe extensas cadeias montanhosas tal qual os Montes Apalaches e as Montanhas Rochosas, as quais integram as Cordilheiras Ocidentais. No Canadá, se sobressaem os muitos lagos presentes naquela região (dois milhões de lagos, ou 7,6% do território do Canadá), alguns em estado de permafrost (lagos glaciais)."
     },
     {
       "id": 5,
       "Continent": "SouthAmerica",
       "Name": "América do Sul",
-      "Description": "O mais belo continente."
+      "Description": "O mais belo continente.",
+      "QtdCountries": 13,
+      "Text": "No norte, predomina a densa e úmida Floresta Amazônica, enquanto na área central temos os terrenos alagados que abarcam o Pantanal brasileiro e Chaco boliviano. Os países como a Argentina, o Uruguai, o Chile, e o Brasil possui forte ascendência europeia."
     },
     {
       "id": 6,
       "Continent": "Oceania",
       "Name": "Oceania",
-      "Description": "Contatos imediatos."
+      "Description": "Contatos imediatos.",
+      "QtdCountries": 14,
+      "Text": "Com 14 Estados independentes, milhares de ilhas e uma biodiversidade bem distribuída pelos seus pouco mais de 8 milhões de km², a Oceania deixou no passado a ideia de que “o outro lado do mundo” só possui a Austrália e a Nova Zelândia como seus principais representantes turísticos."
     }
   ],
   "city": [
