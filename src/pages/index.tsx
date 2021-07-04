@@ -13,10 +13,21 @@ import SwiperCore, { Navigation } from "swiper/core";
 
 import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
+import { GetServerSideProps } from "next";
+
+type ContinentInfo = {
+  id: number;
+  name: string;
+  description: string;
+};
+
+interface HomeProps {
+  continents: ContinentInfo[];
+}
 
 SwiperCore.use([Navigation]);
 
-export default function Home() {
+export default function Home({ continents }: HomeProps) {
   const isWide = useBreakpointValue({
     base: false,
     lg: true,
@@ -100,6 +111,7 @@ export default function Home() {
         mb={["5", "10"]}
         h={["250px", "450px"]}
         mt="10"
+        marginBottom="230"
       >
         <Swiper
           slidesPerView={1} // uma imagem exibida somente
@@ -152,3 +164,9 @@ export default function Home() {
     </Flex>
   );
 }
+
+export const getServerSideProps: GetServerSideProps = async context => {
+  return {
+    props: {},
+  };
+};

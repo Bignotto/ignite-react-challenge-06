@@ -1,942 +1,954 @@
 {
-  "continent": [
+  "continents": [
     {
       "id": 1,
       "Continent": "Africa",
       "Name": "África",
-      "Description": "Selvagem e desafiador."
+      "Description": "Selvagem e desafiador.",
+      "QtdCountries": 54,
+      "Text": "A África é banhada pelo oceano Atlântico na sua costa ocidental e pelo oceano Índico do lado oriental. Ao norte, pelos mares Mediterrâneo e Vermelho e ao sul, pelo Mar Antártico."
     },
     {
       "id": 2,
       "Continent": "Asia",
       "Name": "Ásia",
-      "Description": "O continente mais enigmático."
+      "Description": "O continente mais enigmático.",
+      "QtdCountries": 47,
+      "Text": "A Ásia é o maior continente, tanto em área (chega a quase um terço de todas as terras emersas do nosso planeta) como em população, onde habitam aproximadamente 4,5 bilhões de habitantes. Esse número que supera quase 50% da população do mundo, corresponde a 70 habitantes por quilômetro quadrado, aproximadamente três vezes maior que a densidade média da Terra."
     },
     {
       "id": 3,
       "Continent": "Europe",
       "Name": "Europa",
-      "Description": "O continente mais antigo."
+      "Description": "O continente mais antigo.",
+      "QtdCountries": 43,
+      "Text": "A Europa é um continente que está localizado no hemisfério norte do globo terrestre. Compreende uma área total de 10.498.000 km2 e possui uma população de 744,7 milhões de habitantes."
     },
     {
       "id": 4,
       "Continent": "NorthAmerica",
       "Name": "América do Norte",
-      "Description": "Liberdade e modernidade."
+      "Description": "Liberdade e modernidade.",
+      "QtdCountries": 4,
+      "Text": "Ele exibe extensas cadeias montanhosas tal qual os Montes Apalaches e as Montanhas Rochosas, as quais integram as Cordilheiras Ocidentais. No Canadá, se sobressaem os muitos lagos presentes naquela região (dois milhões de lagos, ou 7,6% do território do Canadá), alguns em estado de permafrost (lagos glaciais)."
     },
     {
       "id": 5,
       "Continent": "SouthAmerica",
       "Name": "América do Sul",
-      "Description": "O mais belo continente."
+      "Description": "O mais belo continente.",
+      "QtdCountries": 13,
+      "Text": "No norte, predomina a densa e úmida Floresta Amazônica, enquanto na área central temos os terrenos alagados que abarcam o Pantanal brasileiro e Chaco boliviano. Os países como a Argentina, o Uruguai, o Chile, e o Brasil possui forte ascendência europeia."
     },
     {
       "id": 6,
       "Continent": "Oceania",
       "Name": "Oceania",
-      "Description": "Contatos imediatos."
+      "Description": "Contatos imediatos.",
+      "QtdCountries": 14,
+      "Text": "Com 14 Estados independentes, milhares de ilhas e uma biodiversidade bem distribuída pelos seus pouco mais de 8 milhões de km², a Oceania deixou no passado a ideia de que “o outro lado do mundo” só possui a Austrália e a Nova Zelândia como seus principais representantes turísticos."
     }
   ],
-  "city": [
+  "cities": [
     {
       "id": 1,
-      "City": "Hong Kong",
-      "Country": "China",
-      "Arrivals": 29.26,
-      "Continent": "Asia",
-      "5yr id Change": "—",
-      "Gowth 17-19": "-4.2%"
+      "city": "Hong Kong",
+      "country": "China",
+      "arrivals": 29.26,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 2,
-      "City": "Bangkok",
-      "Country": "Thailand",
-      "Arrivals": 24.17,
-      "Continent": "Asia",
-      "5yr id Change": "—",
-      "Gowth 17-19": "15.1%"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "arrivals": 24.17,
+      "continent": "Asia",
+      "3code": "THA",
+      "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
       "id": 3,
-      "City": "London",
-      "Country": "United Kingdom",
-      "Arrivals": 19.23,
-      "Continent": "Europe",
-      "5yr id Change": "—",
-      "Gowth 17-19": "-1.4%"
+      "city": "London",
+      "country": "United Kingdom",
+      "arrivals": 19.23,
+      "continent": "Europe",
+      "3code": "ARE",
+      "flag": "https://restcountries.eu/data/ARE.svg"
     },
     {
       "id": 4,
-      "City": "Macau",
-      "Country": "China",
-      "Arrivals": 18.93,
-      "Continent": "Asia",
-      "5yr id Change": "2",
-      "Gowth 17-19": "19.0%"
+      "city": "Macau",
+      "country": "China",
+      "arrivals": 18.93,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 5,
-      "City": "Singapore",
-      "Country": "Singapore",
-      "Arrivals": 18.55,
-      "Continent": "Asia",
-      "5yr id Change": "-1",
-      "Gowth 17-19": "12.2%"
+      "city": "Singapore",
+      "country": "Singapore",
+      "arrivals": 18.55,
+      "continent": "Asia",
+      "3code": "SGP",
+      "flag": "https://restcountries.eu/data/SGP.svg"
     },
     {
       "id": 6,
-      "City": "Paris",
-      "Country": "France",
-      "Arrivals": 17.56,
-      "Continent": "Europe",
-      "5yr id Change": "-1",
-      "Gowth 17-19": "20.6%"
+      "city": "Paris",
+      "country": "France",
+      "arrivals": 17.56,
+      "continent": "Europe",
+      "3code": "FRA",
+      "flag": "https://restcountries.eu/data/FRA.svg"
     },
     {
       "id": 7,
-      "City": "Dubai",
-      "Country": "UAE",
-      "Arrivals": 15.92,
-      "Continent": "Asia",
-      "5yr id Change": "—",
-      "Gowth 17-19": "3.4%"
+      "city": "Dubai",
+      "country": "UAE",
+      "arrivals": 15.92,
+      "continent": "Asia",
+      "3code": "TUV",
+      "flag": "https://restcountries.eu/data/TUV.svg"
     },
     {
       "id": 8,
-      "City": "New York City",
-      "Country": "US",
-      "Arrivals": 13.6,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "1",
-      "Gowth 17-19": "7.0%"
+      "city": "New York City",
+      "country": "US",
+      "arrivals": 13.6,
+      "continent": "NorthAmerica",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 9,
-      "City": "Kuala Lumpur",
-      "Country": "Malaysia",
-      "Arrivals": 13.43,
-      "Continent": "Asia",
-      "5yr id Change": "1",
-      "Gowth 17-19": "9.6%"
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "arrivals": 13.43,
+      "continent": "Asia",
+      "3code": "MYS",
+      "flag": "https://restcountries.eu/data/MYS.svg"
     },
     {
       "id": 10,
-      "City": "Istanbul",
-      "Country": "Turkey",
-      "Arrivals": 13.43,
-      "Continent": "Europa",
-      "5yr id Change": "2",
-      "Gowth 17-19": "37.2%"
+      "city": "Istanbul",
+      "country": "Turkey",
+      "arrivals": 13.43,
+      "continent": "Europa",
+      "3code": "TUR",
+      "flag": "https://restcountries.eu/data/TUR.svg"
     },
     {
       "id": 11,
-      "City": "Delhi",
-      "Country": "India",
-      "Arrivals": 12.65,
-      "Continent": "Asia",
-      "5yr id Change": "30",
-      "Gowth 17-19": "49.6%"
+      "city": "Delhi",
+      "country": "India",
+      "arrivals": 12.65,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
       "id": 12,
-      "City": "Antalya",
-      "Country": "Turkey",
-      "Arrivals": 12.44,
-      "Continent": "Asia",
-      "5yr id Change": "-1",
-      "Gowth 17-19": "40.6%"
+      "city": "Antalya",
+      "country": "Turkey",
+      "arrivals": 12.44,
+      "continent": "Asia",
+      "3code": "TUR",
+      "flag": "https://restcountries.eu/data/TUR.svg"
     },
     {
       "id": 13,
-      "City": "Shenzhen",
-      "Country": "China",
-      "Arrivals": 12.2,
-      "Continent": "Asia",
-      "5yr id Change": "-5",
-      "Gowth 17-19": "2.0%"
+      "city": "Shenzhen",
+      "country": "China",
+      "arrivals": 12.2,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 14,
-      "City": "Mumbai",
-      "Country": "India",
-      "Arrivals": 10.59,
-      "Continent": "Asia",
-      "5yr id Change": "28",
-      "Gowth 17-19": "38.5%"
+      "city": "Mumbai",
+      "country": "India",
+      "arrivals": 10.59,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
       "id": 15,
-      "City": "Phuket",
-      "Country": "Thailand",
-      "Arrivals": 10.55,
-      "Continent": "Asia",
-      "5yr id Change": "—",
-      "Gowth 17-19": "8.4%"
+      "city": "Phuket",
+      "country": "Thailand",
+      "arrivals": 10.55,
+      "continent": "Asia",
+      "3code": "THA",
+      "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
       "id": 16,
-      "City": "Rome",
-      "Country": "Italy",
-      "Arrivals": 10.07,
-      "Continent": "Europe",
-      "5yr id Change": "-3",
-      "Gowth 17-19": "8.3%"
+      "city": "Rome",
+      "country": "Italy",
+      "arrivals": 10.07,
+      "continent": "Europe",
+      "3code": "ITA",
+      "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
       "id": 17,
-      "City": "Tokyo",
-      "Country": "Japan",
-      "Arrivals": 9.99,
-      "Continent": "Asia",
-      "5yr id Change": "15",
-      "Gowth 17-19": "9.3%"
+      "city": "Tokyo",
+      "country": "Japan",
+      "arrivals": 9.99,
+      "continent": "Asia",
+      "3code": "JPN",
+      "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
       "id": 18,
-      "City": "Pattaya",
-      "Country": "Thailand",
-      "Arrivals": 9.61,
-      "Continent": "Asia",
-      "5yr id Change": "-1",
-      "Gowth 17-19": "8.9%"
+      "city": "Pattaya",
+      "country": "Thailand",
+      "arrivals": 9.61,
+      "continent": "Asia",
+      "3code": "THA",
+      "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
       "id": 19,
-      "City": "Taipei",
-      "Country": "Taiwan",
-      "Arrivals": 9.6,
-      "Continent": "Asia",
-      "5yr id Change": "-1",
-      "Gowth 17-19": "7.7%"
+      "city": "Taipei",
+      "country": "Taiwan",
+      "arrivals": 9.6,
+      "continent": "Asia",
+      "3code": "SYR",
+      "flag": "https://restcountries.eu/data/SYR.svg"
     },
     {
       "id": 20,
-      "City": "Mecca",
-      "Country": "Saudi Arabia",
-      "Arrivals": 9.57,
-      "Continent": "Asia",
-      "5yr id Change": "1",
-      "Gowth 17-19": "0.3%"
+      "city": "Mecca",
+      "country": "Saudi Arabia",
+      "arrivals": 9.57,
+      "continent": "Asia",
+      "3code": "SAU",
+      "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
       "id": 21,
-      "City": "Guangzhou",
-      "Country": "China",
-      "Arrivals": 9,
-      "Continent": "Asia",
-      "5yr id Change": "-5",
-      "Gowth 17-19": "0.1%"
+      "city": "Guangzhou",
+      "country": "China",
+      "arrivals": 9,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 22,
-      "City": "Prague",
-      "Country": "Czechia",
-      "Arrivals": 8.95,
-      "Continent": "Europe",
-      "5yr id Change": "-3",
-      "Gowth 17-19": "3.9%"
+      "city": "Prague",
+      "country": "Czechia",
+      "arrivals": 8.95,
+      "continent": "Europe",
+      "3code": "CZE",
+      "flag": "https://restcountries.eu/data/CZE.svg"
     },
     {
       "id": 23,
-      "City": "Medina",
-      "Country": "Saudi Arabia",
-      "Arrivals": 8.55,
-      "Continent": "Asia",
-      "5yr id Change": "1",
-      "Gowth 17-19": "0.7%"
+      "city": "Medina",
+      "country": "Saudi Arabia",
+      "arrivals": 8.55,
+      "continent": "Asia",
+      "3code": "SAU",
+      "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
       "id": 24,
-      "City": "Seoul",
-      "Country": "South Korea",
-      "Arrivals": 8.43,
-      "Continent": "Asia",
-      "5yr id Change": "-10",
-      "Gowth 17-19": "19.1%"
+      "city": "Seoul",
+      "country": "South Korea",
+      "arrivals": 8.43,
+      "continent": "Asia",
+      "3code": "SGS",
+      "flag": "https://restcountries.eu/data/SGS.svg"
     },
     {
       "id": 25,
-      "City": "Amsterdam",
-      "Country": "Netherlands",
-      "Arrivals": 8.35,
-      "Continent": "Europe",
-      "5yr id Change": "3",
-      "Gowth 17-19": "12.6%"
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "arrivals": 8.35,
+      "continent": "Europe",
+      "3code": "NPL",
+      "flag": "https://restcountries.eu/data/NPL.svg"
     },
     {
       "id": 26,
-      "City": "Agra",
-      "Country": "India",
-      "Arrivals": 8.14,
-      "Continent": "Asia",
-      "5yr id Change": "38",
-      "Gowth 17-19": "52.6%"
+      "city": "Agra",
+      "country": "India",
+      "arrivals": 8.14,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
       "id": 27,
-      "City": "Miami",
-      "Country": "US",
-      "Arrivals": 8.12,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "6.9%"
+      "city": "Miami",
+      "country": "US",
+      "arrivals": 8.12,
+      "continent": "NorthAmerica",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 28,
-      "City": "Osaka",
-      "Country": "Japan",
-      "Arrivals": 7.86,
-      "Continent": "Asia",
-      "5yr id Change": "69",
-      "Gowth 17-19": "36.2%"
+      "city": "Osaka",
+      "country": "Japan",
+      "arrivals": 7.86,
+      "continent": "Asia",
+      "3code": "JPN",
+      "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
       "id": 29,
-      "City": "Los Angeles",
-      "Country": "US",
-      "Arrivals": 7.5,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "7.8%"
+      "city": "Los Angeles",
+      "country": "US",
+      "arrivals": 7.5,
+      "continent": "NorthAmerica",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 30,
-      "City": "Shanghai",
-      "Country": "China",
-      "Arrivals": 7.48,
-      "Continent": "Asia",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "7.8%"
+      "city": "Shanghai",
+      "country": "China",
+      "arrivals": 7.48,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 31,
-      "City": "Ho Chi Minh City",
-      "Country": "Vietnam",
-      "Arrivals": 7.2,
-      "Continent": "Asia",
-      "5yr id Change": "6",
-      "Gowth 17-19": "31.6%"
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "arrivals": 7.2,
+      "continent": "Asia",
+      "3code": "VNM",
+      "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
       "id": 32,
-      "City": "Denpasar",
-      "Country": "Indonesia",
-      "Arrivals": 7.19,
-      "Continent": "Oceania",
-      "5yr id Change": "13",
-      "Gowth 17-19": "37.5%"
+      "city": "Denpasar",
+      "country": "Indonesia",
+      "arrivals": 7.19,
+      "continent": "Oceania",
+      "3code": "IDN",
+      "flag": "https://restcountries.eu/data/IDN.svg"
     },
     {
       "id": 33,
-      "City": "Barcelona",
-      "Country": "Spain",
-      "Arrivals": 6.71,
-      "Continent": "Europe",
-      "5yr id Change": "-6",
-      "Gowth 17-19": "11.6%"
+      "city": "Barcelona",
+      "country": "Spain",
+      "arrivals": 6.71,
+      "continent": "Europe",
+      "3code": "ESP",
+      "flag": "https://restcountries.eu/data/ESP.svg"
     },
     {
       "id": 34,
-      "City": "Las Vegas",
-      "Country": "US",
-      "Arrivals": 6.59,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "-9",
-      "Gowth 17-19": "-0.8%"
+      "city": "Las Vegas",
+      "country": "US",
+      "arrivals": 6.59,
+      "continent": "NorthAmerica",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 35,
-      "City": "Milan",
-      "Country": "Italy",
-      "Arrivals": 6.48,
-      "Continent": "Europe",
-      "5yr id Change": "-9",
-      "Gowth 17-19": "3.9%"
+      "city": "Milan",
+      "country": "Italy",
+      "arrivals": 6.48,
+      "continent": "Europe",
+      "3code": "ITA",
+      "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
       "id": 36,
-      "City": "Chennai",
-      "Country": "India",
-      "Arrivals": 6.42,
-      "Continent": "Asia",
-      "5yr id Change": "7",
-      "Gowth 17-19": "55.8%"
+      "city": "Chennai",
+      "country": "India",
+      "arrivals": 6.42,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
       "id": 37,
-      "City": "Vienna",
-      "Country": "Austria",
-      "Arrivals": 6.41,
-      "Continent": "Europe",
-      "5yr id Change": "-8",
-      "Gowth 17-19": "7.1%"
+      "city": "Vienna",
+      "country": "Austria",
+      "arrivals": 6.41,
+      "continent": "Europe",
+      "3code": "AUT",
+      "flag": "https://restcountries.eu/data/AUT.svg"
     },
     {
       "id": 38,
-      "City": "Johor Bahru",
-      "Country": "Malaysia",
-      "Arrivals": 6.4,
-      "Continent": "Asia",
-      "5yr id Change": "8",
-      "Gowth 17-19": "29.8%"
+      "city": "Johor Bahru",
+      "country": "Malaysia",
+      "arrivals": 6.4,
+      "continent": "Asia",
+      "3code": "MYS",
+      "flag": "https://restcountries.eu/data/MYS.svg"
     },
     {
       "id": 39,
-      "City": "Jaipur",
-      "Country": "India",
-      "Arrivals": 6.38,
-      "Continent": "Asia",
-      "5yr id Change": "29",
-      "Gowth 17-19": "42.9%"
+      "city": "Jaipur",
+      "country": "India",
+      "arrivals": 6.38,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
       "id": 40,
-      "City": "Cancun",
-      "Country": "Mexico",
-      "Arrivals": 6.04,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "17",
-      "Gowth 17-19": "1.8%"
+      "city": "Cancun",
+      "country": "Mexico",
+      "arrivals": 6.04,
+      "continent": "NorthAmerica",
+      "3code": "MEX",
+      "flag": "https://restcountries.eu/data/MEX.svg"
     },
     {
       "id": 41,
-      "City": "Berlin",
-      "Country": "Germany",
-      "Arrivals": 5.96,
-      "Continent": "Europe",
-      "5yr id Change": "-10",
-      "Gowth 17-19": "10.1%"
+      "city": "Berlin",
+      "country": "Germany",
+      "arrivals": 5.96,
+      "continent": "Europe",
+      "3code": "DEU",
+      "flag": "https://restcountries.eu/data/DEU.svg"
     },
     {
       "id": 42,
-      "City": "Cairo",
-      "Country": "Egypt",
-      "Arrivals": 5.75,
-      "Continent": "Africa",
-      "5yr id Change": "18",
-      "Gowth 17-19": "55.1%"
+      "city": "Cairo",
+      "country": "Egypt",
+      "arrivals": 5.75,
+      "continent": "Africa",
+      "3code": "EGY",
+      "flag": "https://restcountries.eu/data/EGY.svg"
     },
     {
       "id": 43,
-      "City": "Athens",
-      "Country": "Greece",
-      "Arrivals": 5.73,
-      "Continent": "Europe",
-      "5yr id Change": "18",
-      "Gowth 17-19": "31.3%"
+      "city": "Athens",
+      "country": "Greece",
+      "arrivals": 5.73,
+      "continent": "Europe",
+      "3code": "GRC",
+      "flag": "https://restcountries.eu/data/GRC.svg"
     },
     {
       "id": 44,
-      "City": "Orlando",
-      "Country": "US",
-      "Arrivals": 5.55,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "-10",
-      "Gowth 17-19": "8.7%"
+      "city": "Orlando",
+      "country": "US",
+      "arrivals": 5.55,
+      "continent": "NorthAmerica",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 45,
-      "City": "Moscow",
-      "Country": "Russia",
-      "Arrivals": 5.51,
-      "Continent": "Europe",
-      "5yr id Change": "-10",
-      "Gowth 17-19": "24.4%"
+      "city": "Moscow",
+      "country": "Russia",
+      "arrivals": 5.51,
+      "continent": "Europe",
+      "3code": "ROU",
+      "flag": "https://restcountries.eu/data/ROU.svg"
     },
     {
       "id": 46,
-      "City": "Venice",
-      "Country": "Italy",
-      "Arrivals": 5.5,
-      "Continent": "Europe",
-      "5yr id Change": "-16",
-      "Gowth 17-19": "5.3%"
+      "city": "Venice",
+      "country": "Italy",
+      "arrivals": 5.5,
+      "continent": "Europe",
+      "3code": "ITA",
+      "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
       "id": 47,
-      "City": "Madrid",
-      "Country": "Spain",
-      "Arrivals": 5.44,
-      "Continent": "Europe",
-      "5yr id Change": "-8",
-      "Gowth 17-19": "6.3%"
+      "city": "Madrid",
+      "country": "Spain",
+      "arrivals": 5.44,
+      "continent": "Europe",
+      "3code": "ESP",
+      "flag": "https://restcountries.eu/data/ESP.svg"
     },
     {
       "id": 48,
-      "City": "Ha Long",
-      "Country": "Vietnam",
-      "Arrivals": 5.29,
-      "Continent": "Asia",
-      "5yr id Change": "14",
-      "Gowth 17-19": "44.0%"
+      "city": "Ha Long",
+      "country": "Vietnam",
+      "arrivals": 5.29,
+      "continent": "Asia",
+      "3code": "VNM",
+      "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
       "id": 49,
-      "City": "Riyadh",
-      "Country": "Saudi Arabia",
-      "Arrivals": 5.27,
-      "Continent": "Asia",
-      "5yr id Change": "-9",
-      "Gowth 17-19": "0.9%"
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "arrivals": 5.27,
+      "continent": "Asia",
+      "3code": "SAU",
+      "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
       "id": 50,
-      "City": "Dublin",
-      "Country": "Ireland",
-      "Arrivals": 5.21,
-      "Continent": "Europe",
-      "5yr id Change": "-12",
-      "Gowth 17-19": "9.4%"
+      "city": "Dublin",
+      "country": "Ireland",
+      "arrivals": 5.21,
+      "continent": "Europe",
+      "3code": "IRL",
+      "flag": "https://restcountries.eu/data/IRL.svg"
     },
     {
       "id": 51,
-      "City": "Florence",
-      "Country": "Italy",
-      "Arrivals": 5.06,
-      "Continent": "Europe",
-      "5yr id Change": "-15",
-      "Gowth 17-19": "3.9%"
+      "city": "Florence",
+      "country": "Italy",
+      "arrivals": 5.06,
+      "continent": "Europe",
+      "3code": "ITA",
+      "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
       "id": 52,
-      "City": "Ha Noi",
-      "Country": "Vietnam",
-      "Arrivals": 4.69,
-      "Continent": "Asia",
-      "5yr id Change": "21",
-      "Gowth 17-19": "19.3%"
+      "city": "Ha Noi",
+      "country": "Vietnam",
+      "arrivals": 4.69,
+      "continent": "Asia",
+      "3code": "VNM",
+      "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
       "id": 53,
-      "City": "Toronto",
-      "Country": "Canada",
-      "Arrivals": 4.51,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "—",
-      "Gowth 17-19": "10.5%"
+      "city": "Toronto",
+      "country": "Canada",
+      "arrivals": 4.51,
+      "continent": "NorthAmerica",
+      "3code": "CAN",
+      "flag": "https://restcountries.eu/data/CAN.svg"
     },
     {
       "id": 54,
-      "City": "Johannesburg",
-      "Country": "South Africa",
-      "Arrivals": 4.12,
-      "Continent": "Africa",
-      "5yr id Change": "-10",
-      "Gowth 17-19": "3.4%"
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "arrivals": 4.12,
+      "continent": "Africa",
+      "3code": "ZAF",
+      "flag": "https://restcountries.eu/data/ZAF.svg"
     },
     {
       "id": 55,
-      "City": "Sydney",
-      "Country": "Australia",
-      "Arrivals": 4.09,
-      "Continent": "Oceania",
-      "5yr id Change": "1",
-      "Gowth 17-19": "12.1%"
+      "city": "Sydney",
+      "country": "Australia",
+      "arrivals": 4.09,
+      "continent": "Oceania",
+      "3code": "AUS",
+      "flag": "https://restcountries.eu/data/AUS.svg"
     },
     {
       "id": 56,
-      "City": "Munich",
-      "Country": "Germany",
-      "Arrivals": 4.06,
-      "Continent": "Europe",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "11.0%"
+      "city": "Munich",
+      "country": "Germany",
+      "arrivals": 4.06,
+      "continent": "Europe",
+      "3code": "DEU",
+      "flag": "https://restcountries.eu/data/DEU.svg"
     },
     {
       "id": 57,
-      "City": "Jakarta",
-      "Country": "Indonesia",
-      "Arrivals": 4.03,
-      "Continent": "Asia",
-      "5yr id Change": "17",
-      "Gowth 17-19": "30.9%"
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "arrivals": 4.03,
+      "continent": "Asia",
+      "3code": "IDN",
+      "flag": "https://restcountries.eu/data/IDN.svg"
     },
     {
       "id": 58,
-      "City": "Beijing",
-      "Country": "China",
-      "Arrivals": 4,
-      "Continent": "Asia",
-      "5yr id Change": "-25",
-      "Gowth 17-19": "3.8%"
+      "city": "Beijing",
+      "country": "China",
+      "arrivals": 4,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 59,
-      "City": "St. Petersburg",
-      "Country": "Russia",
-      "Arrivals": 4,
-      "Continent": "Europe",
-      "5yr id Change": "-11",
-      "Gowth 17-19": "23.9%"
+      "city": "St. Petersburg",
+      "country": "Russia",
+      "arrivals": 4,
+      "continent": "Europe",
+      "3code": "ROU",
+      "flag": "https://restcountries.eu/data/ROU.svg"
     },
     {
       "id": 60,
-      "City": "Brussels",
-      "Country": "Belgium",
-      "Arrivals": 3.94,
-      "Continent": "Europe",
-      "5yr id Change": "-13",
-      "Gowth 17-19": "24.8%"
+      "city": "Brussels",
+      "country": "Belgium",
+      "arrivals": 3.94,
+      "continent": "Europe",
+      "3code": "BEL",
+      "flag": "https://restcountries.eu/data/BEL.svg"
     },
     {
       "id": 61,
-      "City": "Jerusalem",
-      "Country": "Israel",
-      "Arrivals": 3.93,
-      "Continent": "Asia",
-      "5yr id Change": "-9",
-      "Gowth 17-19": "27.0%"
+      "city": "Jerusalem",
+      "country": "Israel",
+      "arrivals": 3.93,
+      "continent": "Asia",
+      "3code": "ISR",
+      "flag": "https://restcountries.eu/data/ISR.svg"
     },
     {
       "id": 62,
-      "City": "Budapest",
-      "Country": "Hungary",
-      "Arrivals": 3.82,
-      "Continent": "Europe",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "10.4%"
+      "city": "Budapest",
+      "country": "Hungary",
+      "arrivals": 3.82,
+      "continent": "Europe",
+      "3code": "HUN",
+      "flag": "https://restcountries.eu/data/HUN.svg"
     },
     {
       "id": 63,
-      "City": "Lisbon",
-      "Country": "Portugal",
-      "Arrivals": 3.54,
-      "Continent": "Europe",
-      "5yr id Change": "9",
-      "Gowth 17-19": "3.4%"
+      "city": "Lisbon",
+      "country": "Portugal",
+      "arrivals": 3.54,
+      "continent": "Europe",
+      "3code": "PRT",
+      "flag": "https://restcountries.eu/data/PRT.svg"
     },
     {
       "id": 64,
-      "City": "Dammam",
-      "Country": "Saudi Arabia",
-      "Arrivals": 3.5,
-      "Continent": "Asia",
-      "5yr id Change": "-14",
-      "Gowth 17-19": "0.3%"
+      "city": "Dammam",
+      "country": "Saudi Arabia",
+      "arrivals": 3.5,
+      "continent": "Asia",
+      "3code": "SAU",
+      "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
       "id": 65,
-      "City": "Penang Island",
-      "Country": "Malaysia",
-      "Arrivals": 3.44,
-      "Continent": "Asia",
-      "5yr id Change": "-2",
-      "Gowth 17-19": "16.3%"
+      "city": "Penang Island",
+      "country": "Malaysia",
+      "arrivals": 3.44,
+      "continent": "Asia",
+      "3code": "MYS",
+      "flag": "https://restcountries.eu/data/MYS.svg"
     },
     {
       "id": 66,
-      "City": "Heraklion",
-      "Country": "Greece",
-      "Arrivals": 3.4,
-      "Continent": "Europe",
-      "5yr id Change": "-1",
-      "Gowth 17-19": "-3.8%"
+      "city": "Heraklion",
+      "country": "Greece",
+      "arrivals": 3.4,
+      "continent": "Europe",
+      "3code": "GRC",
+      "flag": "https://restcountries.eu/data/GRC.svg"
     },
     {
       "id": 67,
-      "City": "Kyoto",
-      "Country": "Japan",
-      "Arrivals": 3.29,
-      "Continent": "Asia",
-      "5yr id Change": "58",
-      "Gowth 17-19": "4.4%"
+      "city": "Kyoto",
+      "country": "Japan",
+      "arrivals": 3.29,
+      "continent": "Asia",
+      "3code": "JPN",
+      "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
       "id": 68,
-      "City": "Zhuhai",
-      "Country": "China",
-      "Arrivals": 3.26,
-      "Continent": "Asia",
-      "5yr id Change": "-9",
-      "Gowth 17-19": "4.4%"
+      "city": "Zhuhai",
+      "country": "China",
+      "arrivals": 3.26,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 69,
-      "City": "Vancouver",
-      "Country": "Canada",
-      "Arrivals": 3.21,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "13",
-      "Gowth 17-19": "13.3%"
+      "city": "Vancouver",
+      "country": "Canada",
+      "arrivals": 3.21,
+      "continent": "NorthAmerica",
+      "3code": "CAN",
+      "flag": "https://restcountries.eu/data/CAN.svg"
     },
     {
       "id": 70,
-      "City": "Chiang Mai",
-      "Country": "Thailand",
-      "Arrivals": 3.2,
-      "Continent": "Asia",
-      "5yr id Change": "6",
-      "Gowth 17-19": "4.2%"
+      "city": "Chiang Mai",
+      "country": "Thailand",
+      "arrivals": 3.2,
+      "continent": "Asia",
+      "3code": "THA",
+      "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
       "id": 71,
-      "City": "Copenhagen",
-      "Country": "Denmark",
-      "Arrivals": 3.07,
-      "Continent": "Europe",
-      "5yr id Change": "8",
-      "Gowth 17-19": "7.8%"
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "arrivals": 3.07,
+      "continent": "Europe",
+      "3code": "DNK",
+      "flag": "https://restcountries.eu/data/DNK.svg"
     },
     {
       "id": 72,
-      "City": "San Francisco",
-      "Country": "US",
-      "Arrivals": 2.9,
-      "Continent": "NorthAmerica",
-      "5yr id Change": "-14",
-      "Gowth 17-19": "3.1%"
+      "city": "San Francisco",
+      "country": "US",
+      "arrivals": 2.9,
+      "continent": "NorthAmerica",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 73,
-      "City": "Melbourne",
-      "Country": "Australia",
-      "Arrivals": 2.89,
-      "Continent": "Oceania",
-      "5yr id Change": "12",
-      "Gowth 17-19": "20.9%"
+      "city": "Melbourne",
+      "country": "Australia",
+      "arrivals": 2.89,
+      "continent": "Oceania",
+      "3code": "AUS",
+      "flag": "https://restcountries.eu/data/AUS.svg"
     },
     {
       "id": 74,
-      "City": "Krakow",
-      "Country": "Poland",
-      "Arrivals": 2.85,
-      "Continent": "Europe",
-      "5yr id Change": "-8",
-      "Gowth 17-19": "3.9%"
+      "city": "Krakow",
+      "country": "Poland",
+      "arrivals": 2.85,
+      "continent": "Europe",
+      "3code": "POL",
+      "flag": "https://restcountries.eu/data/POL.svg"
     },
     {
       "id": 75,
-      "City": "Marrakech",
-      "Country": "Morocco",
-      "Arrivals": 2.84,
-      "Continent": "Africa",
-      "5yr id Change": "2",
-      "Gowth 17-19": "13.1%"
+      "city": "Marrakech",
+      "country": "Morocco",
+      "arrivals": 2.84,
+      "continent": "Africa",
+      "3code": "MAR",
+      "flag": "https://restcountries.eu/data/MAR.svg"
     },
     {
       "id": 76,
-      "City": "Kolkatta",
-      "Country": "India",
-      "Arrivals": 2.83,
-      "Continent": "Asia",
-      "5yr id Change": "14",
-      "Gowth 17-19": "22.3%"
+      "city": "Kolkatta",
+      "country": "India",
+      "arrivals": 2.83,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
       "id": 77,
-      "City": "Cebu",
-      "Country": "Philippines",
-      "Arrivals": 2.81,
-      "Continent": "Asia",
-      "5yr id Change": "51",
-      "Gowth 17-19": "-4.2%"
+      "city": "Cebu",
+      "country": "Philippines",
+      "arrivals": 2.81,
+      "continent": "Asia",
+      "3code": "PER",
+      "flag": "https://restcountries.eu/data/PER.svg"
     },
     {
       "id": 78,
-      "City": "Auckland",
-      "Country": "New Zealand",
-      "Arrivals": 2.8,
-      "Continent": "Oceania",
-      "5yr id Change": "6",
-      "Gowth 17-19": "9.7%"
+      "city": "Auckland",
+      "country": "New Zealand",
+      "arrivals": 2.8,
+      "continent": "Oceania",
+      "3code": "NZL",
+      "flag": "https://restcountries.eu/data/NZL.svg"
     },
     {
       "id": 79,
-      "City": "Tel Aviv",
-      "Country": "Israel",
-      "Arrivals": 2.78,
-      "Continent": "Asia",
-      "5yr id Change": "-8",
-      "Gowth 17-19": "16.0%"
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "arrivals": 2.78,
+      "continent": "Asia",
+      "3code": "ISR",
+      "flag": "https://restcountries.eu/data/ISR.svg"
     },
     {
       "id": 80,
-      "City": "Guilin",
-      "Country": "China",
-      "Arrivals": 2.75,
-      "Continent": "Asia",
-      "5yr id Change": "29",
-      "Gowth 17-19": "19.7%"
+      "city": "Guilin",
+      "country": "China",
+      "arrivals": 2.75,
+      "continent": "Asia",
+      "3code": "CHN",
+      "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
       "id": 81,
-      "City": "Honolulu",
-      "Country": "US",
-      "Arrivals": 2.74,
-      "Continent": "Oceania",
-      "5yr id Change": "-11",
-      "Gowth 17-19": "6.0%"
+      "city": "Honolulu",
+      "country": "US",
+      "arrivals": 2.74,
+      "continent": "Oceania",
+      "3code": "URY",
+      "flag": "https://restcountries.eu/data/URY.svg"
     },
     {
       "id": 82,
-      "City": "Hurgada",
-      "Country": "Egypt",
-      "Arrivals": 2.74,
-      "Continent": "Africa",
-      "5yr id Change": "45",
-      "Gowth 17-19": "108.1%"
+      "city": "Hurgada",
+      "country": "Egypt",
+      "arrivals": 2.74,
+      "continent": "Africa",
+      "3code": "EGY",
+      "flag": "https://restcountries.eu/data/EGY.svg"
     },
     {
       "id": 83,
-      "City": "Warsaw",
-      "Country": "Poland",
-      "Arrivals": 2.73,
-      "Continent": "Europe",
-      "5yr id Change": "-16",
-      "Gowth 17-19": "7.2%"
+      "city": "Warsaw",
+      "country": "Poland",
+      "arrivals": 2.73,
+      "continent": "Europe",
+      "3code": "POL",
+      "flag": "https://restcountries.eu/data/POL.svg"
     },
     {
       "id": 84,
-      "City": "Mugla",
-      "Country": "Turkey",
-      "Arrivals": 2.72,
-      "Continent": "Asia",
-      "5yr id Change": "-33",
-      "Gowth 17-19": "47.5%"
+      "city": "Mugla",
+      "country": "Turkey",
+      "arrivals": 2.72,
+      "continent": "Asia",
+      "3code": "TUR",
+      "flag": "https://restcountries.eu/data/TUR.svg"
     },
     {
       "id": 85,
-      "City": "Buenos Aires City",
-      "Country": "Argentina",
-      "Arrivals": 2.69,
-      "Continent": "SouthAmerica",
-      "5yr id Change": "-31",
-      "Gowth 17-19": "8.6%"
+      "city": "Buenos Aires City",
+      "country": "Argentina",
+      "arrivals": 2.69,
+      "continent": "SouthAmerica",
+      "3code": "ARG",
+      "flag": "https://restcountries.eu/data/ARG.svg"
     },
     {
       "id": 86,
-      "City": "Chiba",
-      "Country": "Japan",
-      "Arrivals": 2.68,
-      "Continent": "Asia",
-      "5yr id Change": "106",
-      "Gowth 17-19": "14.4%"
+      "city": "Chiba",
+      "country": "Japan",
+      "arrivals": 2.68,
+      "continent": "Asia",
+      "3code": "JPN",
+      "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
       "id": 87,
-      "City": "Fidfurt",
-      "Country": "Germany",
-      "Arrivals": 2.64,
-      "Continent": "Europe",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "9.2%"
+      "city": "Fidfurt",
+      "country": "Germany",
+      "arrivals": 2.64,
+      "continent": "Europe",
+      "3code": "DEU",
+      "flag": "https://restcountries.eu/data/DEU.svg"
     },
     {
       "id": 88,
-      "City": "Stockholm",
-      "Country": "Sweden",
-      "Arrivals": 2.6,
-      "Continent": "Europe",
-      "5yr id Change": "—",
-      "Gowth 17-19": "10.1%"
+      "city": "Stockholm",
+      "country": "Sweden",
+      "arrivals": 2.6,
+      "continent": "Europe",
+      "3code": "SWE",
+      "flag": "https://restcountries.eu/data/SWE.svg"
     },
     {
       "id": 89,
-      "City": "Lima",
-      "Country": "Peru",
-      "Arrivals": 2.54,
-      "Continent": "SouthAmerica",
-      "5yr id Change": "-11",
-      "Gowth 17-19": "17.5%"
+      "city": "Lima",
+      "country": "Peru",
+      "arrivals": 2.54,
+      "continent": "SouthAmerica",
+      "3code": "PER",
+      "flag": "https://restcountries.eu/data/PER.svg"
     },
     {
       "id": 90,
-      "City": "Da Nang",
-      "Country": "Vietnam",
-      "Arrivals": 2.51,
-      "Continent": "Asia",
-      "5yr id Change": "72",
-      "Gowth 17-19": "44.0%"
+      "city": "Da Nang",
+      "country": "Vietnam",
+      "arrivals": 2.51,
+      "continent": "Asia",
+      "3code": "VNM",
+      "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
       "id": 91,
-      "City": "Batam",
-      "Country": "Indonesia",
-      "Arrivals": 2.49,
-      "Continent": "Asia",
-      "5yr id Change": "20",
-      "Gowth 17-19": "27.8%"
+      "city": "Batam",
+      "country": "Indonesia",
+      "arrivals": 2.49,
+      "continent": "Asia",
+      "3code": "IDN",
+      "flag": "https://restcountries.eu/data/IDN.svg"
     },
     {
       "id": 92,
-      "City": "Nice",
-      "Country": "France",
-      "Arrivals": 2.47,
-      "Continent": "Europe",
-      "5yr id Change": "-17",
-      "Gowth 17-19": "10.7%"
+      "city": "Nice",
+      "country": "France",
+      "arrivals": 2.47,
+      "continent": "Europe",
+      "3code": "FRA",
+      "flag": "https://restcountries.eu/data/FRA.svg"
     },
     {
       "id": 93,
-      "City": "Fukuoka",
-      "Country": "Japan",
-      "Arrivals": 2.44,
-      "Continent": "Asia",
-      "5yr id Change": "104",
-      "Gowth 17-19": "24.6%"
+      "city": "Fukuoka",
+      "country": "Japan",
+      "arrivals": 2.44,
+      "continent": "Asia",
+      "3code": "JPN",
+      "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
       "id": 94,
-      "City": "Abu Dhabi",
-      "Country": "UAE",
-      "Arrivals": 2.4,
-      "Continent": "Asia",
-      "5yr id Change": "12",
-      "Gowth 17-19": "14.7%"
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "arrivals": 2.4,
+      "continent": "Asia",
+      "3code": "TUV",
+      "flag": "https://restcountries.eu/data/TUV.svg"
     },
     {
       "id": 95,
-      "City": "Jeju",
-      "Country": "South Korea",
-      "Arrivals": 2.35,
-      "Continent": "Asia",
-      "5yr id Change": "-8",
-      "Gowth 17-19": "-6.2%"
+      "city": "Jeju",
+      "country": "South Korea",
+      "arrivals": 2.35,
+      "continent": "Asia",
+      "3code": "SGS",
+      "flag": "https://restcountries.eu/data/SGS.svg"
     },
     {
       "id": 96,
-      "City": "Porto",
-      "Country": "Portugal",
-      "Arrivals": 2.34,
-      "Continent": "Europe",
-      "5yr id Change": "22",
-      "Gowth 17-19": "11.7%"
+      "city": "Porto",
+      "country": "Portugal",
+      "arrivals": 2.34,
+      "continent": "Europe",
+      "3code": "PRT",
+      "flag": "https://restcountries.eu/data/PRT.svg"
     },
     {
       "id": 97,
-      "City": "Rhodes",
-      "Country": "Greece",
-      "Arrivals": 2.34,
-      "Continent": "Europe",
-      "5yr id Change": "-11",
-      "Gowth 17-19": "10.6%"
+      "city": "Rhodes",
+      "country": "Greece",
+      "arrivals": 2.34,
+      "continent": "Europe",
+      "3code": "GRC",
+      "flag": "https://restcountries.eu/data/GRC.svg"
     },
     {
       "id": 98,
-      "City": "Rio de Janeiro",
-      "Country": "Brazil",
-      "Arrivals": 2.28,
-      "Continent": "SouthAmerica",
-      "5yr id Change": "-7",
-      "Gowth 17-19": "3.6%"
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "arrivals": 2.28,
+      "continent": "SouthAmerica",
+      "3code": "BRA",
+      "flag": "https://restcountries.eu/data/BRA.svg"
     },
     {
       "id": 99,
-      "City": "Krabi",
-      "Country": "Thailand",
-      "Arrivals": 2.26,
-      "Continent": "Asia",
-      "5yr id Change": "-5",
-      "Gowth 17-19": "12.7%"
+      "city": "Krabi",
+      "country": "Thailand",
+      "arrivals": 2.26,
+      "continent": "Asia",
+      "3code": "THA",
+      "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
       "id": 100,
-      "City": "Bangalore",
-      "Country": "India",
-      "Arrivals": 2.24,
-      "Continent": "Asia",
-      "5yr id Change": "83",
-      "Gowth 17-19": "50.6%"
+      "city": "Bangalore",
+      "country": "India",
+      "arrivals": 2.24,
+      "continent": "Asia",
+      "3code": "IND",
+      "flag": "https://restcountries.eu/data/IND.svg"
     }
   ]
 }
