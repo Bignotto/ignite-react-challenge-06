@@ -111,6 +111,7 @@ export default function Home({ continents }: HomeProps) {
         mb={["5", "10"]}
         h={["250px", "450px"]}
         mt="10"
+        marginBottom="230"
       >
         <Swiper
           slidesPerView={1} // uma imagem exibida somente
