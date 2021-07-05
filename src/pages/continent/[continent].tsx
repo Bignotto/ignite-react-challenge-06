@@ -8,12 +8,12 @@ import {
   HStack,
   useBreakpointValue,
   SimpleGrid,
+  VStack,
+  Spacer,
 } from "@chakra-ui/react";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation } from "swiper/core";
-
 import { Header } from "../../components/Header";
+import { Kpi } from "../../components/KPI";
 
 type Continent = {
   Continent: string;
@@ -37,20 +37,28 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
         width="100%"
         objectFit="cover"
       />
-      <Flex bg="red.200" maxWidth={1440} direction="column">
+      <Flex bg="red.200" maxWidth={1440} direction="column" px="2">
         <Text
           color="gray.50"
           fontSize={["3xl", "7xl"]}
           fontWeight="bold"
-          mt={-100}
+          mt={[-45, -108]}
         >
           {continent.Name}
         </Text>
-        <Flex direction={["column", "row"]}>
+        <Flex direction={["column", "row"]} marginTop={["6", "20"]}>
           <Box bg="green.300" w="100%">
             <Text fontSize={[14, 24]}>{continent.Text}</Text>
           </Box>
-          <Box bg="yellow.300" w="100%" height={300}></Box>
+          <Flex bg="yellow.300" w="100%" justify="center">
+            <HStack gridGap={[0, 0]}>
+              <Kpi value={50} text="países" />
+              <Spacer />
+              <Kpi value={50} text="países" />
+              <Spacer />
+              <Kpi value={27} text="cidades +100" />
+            </HStack>
+          </Flex>
         </Flex>
       </Flex>
     </Center>
