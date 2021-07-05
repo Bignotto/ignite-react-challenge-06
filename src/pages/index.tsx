@@ -104,15 +104,7 @@ export default function Home({ continents }: HomeProps) {
         </Text>
       </Flex>
 
-      <Flex
-        w="100%"
-        maxWidth="1240px"
-        mx="auto"
-        mb={["5", "10"]}
-        h={["250px", "450px"]}
-        mt="10"
-        marginBottom="230"
-      >
+      <Flex w="100%" maxWidth="1240px" mx="auto" h={["250px", "450px"]} mt="10">
         <Swiper
           slidesPerView={1} // uma imagem exibida somente
           navigation
