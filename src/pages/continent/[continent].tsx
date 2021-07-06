@@ -37,10 +37,16 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
         width="100%"
         objectFit="cover"
       />
-      <Flex bg="red.200" maxWidth={1440} direction="column" px="2">
+      <Flex
+        bg="red.200"
+        maxWidth={1440}
+        direction="column"
+        px="2"
+        align={["center", "flex-start"]}
+      >
         <Text
           color="gray.50"
-          fontSize={["3xl", "7xl"]}
+          fontSize={["3xl", "5xl"]}
           fontWeight="bold"
           mt={[-45, -108]}
         >
@@ -50,8 +56,8 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
           <Box bg="green.300" w="100%">
             <Text fontSize={[14, 24]}>{continent.Text}</Text>
           </Box>
-          <Flex bg="yellow.300" w="100%" justify="center">
-            <HStack gridGap={[0, 0]}>
+          <Flex bg="yellow.300" w="100%" justify={["flex-start", "center"]}>
+            <HStack gridGap={[2, 8]}>
               <Kpi value={50} text="países" />
               <Spacer />
               <Kpi value={50} text="países" />
@@ -84,28 +90,3 @@ export const getServerSideProps: GetServerSideProps = async ({
     },
   };
 };
-
-/*
-    <>
-      <Flex direction="column" justifyContent="center" bg="blue.200">
-        <Header />
-        <Image
-          src={continent.Image}
-          height={500}
-          width="100%"
-          objectFit="cover"
-        />
-
-        <Flex mt={-100} alignItems="flex-start">
-          <Text color="gray.50" fontSize={["3xl", "7xl"]} fontWeight="bold">
-            {continent.Name}
-          </Text>
-        </Flex>
-        <Flex bg="gray.100" maxWidth="1440" justifyContent="center">
-          <Text fontSize={14} px="4" py="6">
-            {continent.Text}
-          </Text>
-        </Flex>
-      </Flex>
-    </>
-*/

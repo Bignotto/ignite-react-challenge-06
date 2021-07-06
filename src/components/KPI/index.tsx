@@ -1,4 +1,4 @@
-import { Text, VStack } from "@chakra-ui/react";
+import { Text, VStack, Box } from "@chakra-ui/react";
 
 type KpiProps = {
   value: number;
@@ -7,13 +7,22 @@ type KpiProps = {
 
 export function Kpi({ value, text }: KpiProps) {
   return (
-    <VStack>
-      <Text color="orange.500" fontSize={["3xl", "5xl"]}>
-        {value}
-      </Text>
-      <Text color="gray.600" fontSize={["2xl", "3xl"]}>
-        {text}
-      </Text>
+    <VStack align={["flex-start", "center"]}>
+      <Box>
+        <Text color="orange.500" fontSize={["3xl", "5xl"]} lineHeight="shorter">
+          {value}
+        </Text>
+      </Box>
+      <Box>
+        <Text
+          color="gray.600"
+          fontSize={["xl", "2xl"]}
+          lineHeight="shorter"
+          fontWeight={["normal", "bold"]}
+        >
+          {text}
+        </Text>
+      </Box>
     </VStack>
   );
 }
