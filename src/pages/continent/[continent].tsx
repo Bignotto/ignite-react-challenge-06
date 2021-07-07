@@ -14,6 +14,7 @@ import {
 
 import { Header } from "../../components/Header";
 import { Kpi } from "../../components/KPI";
+import { CityCard } from "../../components/CityCard";
 
 type Continent = {
   Continent: string;
@@ -39,7 +40,7 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
       />
       <Flex
         bg="red.200"
-        maxWidth={1440}
+        maxWidth={1159}
         direction="column"
         px="2"
         align={["center", "flex-start"]}
@@ -66,6 +67,34 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
             </HStack>
           </Flex>
         </Flex>
+      </Flex>
+      <Flex
+        align="flex-start"
+        width="100%"
+        maxWidth={1159}
+        marginTop="20"
+        bg="orange.200"
+        px="2"
+      >
+        <Text color="gray.600" fontSize={["xl", "4xl"]}>
+          Cidades +100
+        </Text>
+      </Flex>
+      <Flex
+        justify="center"
+        width="100%"
+        maxWidth={1159}
+        marginTop="10"
+        bg="pink.200"
+        px="2"
+      >
+        <SimpleGrid columns={[1, 4]} spacing="45px">
+          <CityCard />
+          <CityCard />
+          <CityCard />
+          <CityCard />
+          <CityCard />
+        </SimpleGrid>
       </Flex>
     </Center>
   );
