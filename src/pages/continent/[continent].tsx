@@ -30,7 +30,7 @@ interface ContinentPageProps {
 
 export default function ContinentPage({ continent }: ContinentPageProps) {
   return (
-    <Center flexDirection="column" bg="blue.200">
+    <Center flexDirection="column">
       <Header />
       <Image
         src={continent.Image}
@@ -39,7 +39,6 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
         objectFit="cover"
       />
       <Flex
-        bg="red.200"
         maxWidth={1159}
         direction="column"
         px="2"
@@ -49,15 +48,19 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
           color="gray.50"
           fontSize={["3xl", "5xl"]}
           fontWeight="bold"
-          mt={[-45, -108]}
+          mt={[-75, -108]}
         >
           {continent.Name}
         </Text>
-        <Flex direction={["column", "row"]} marginTop={["6", "20"]}>
-          <Box bg="green.300" w="100%">
+        <Flex direction={["column", "row"]} marginTop={["10", "20"]}>
+          <Box w="100%">
             <Text fontSize={[14, 24]}>{continent.Text}</Text>
           </Box>
-          <Flex bg="yellow.300" w="100%" justify={["flex-start", "center"]}>
+          <Flex
+            w="100%"
+            justify={["flex-start", "center"]}
+            marginTop={["6", "4"]}
+          >
             <HStack gridGap={[2, 8]}>
               <Kpi value={50} text="países" />
               <Spacer />
@@ -72,22 +75,14 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
         align="flex-start"
         width="100%"
         maxWidth={1159}
-        marginTop="20"
-        bg="orange.200"
+        marginTop={["10", "20"]}
         px="2"
       >
         <Text color="gray.600" fontSize={["xl", "4xl"]}>
           Cidades +100
         </Text>
       </Flex>
-      <Flex
-        justify="center"
-        width="100%"
-        maxWidth={1159}
-        marginTop="10"
-        bg="pink.200"
-        px="2"
-      >
+      <Flex justify="center" width="100%" maxWidth={1159} marginTop="10" px="2">
         <SimpleGrid columns={[1, 4]} spacing="45px">
           <CityCard />
           <CityCard />

@@ -2,8 +2,14 @@ import { Text, VStack, Box, Image, Flex } from "@chakra-ui/react";
 
 export function CityCard() {
   return (
-    <Box w="246px" h="279px" bg="blue.200">
-      <VStack align="center">
+    <Box
+      w="246px"
+      h="279px"
+      overflow="hidden"
+      borderTopLeftRadius="lg"
+      borderTopRightRadius="lg"
+    >
+      <Flex direction="column" align="center" gridGap="0">
         <Image
           src="/images/cities/london.jpg"
           height={173}
@@ -11,21 +17,31 @@ export function CityCard() {
           objectFit="cover"
         />
         <Flex
-          bg="yellow.400"
           direction="row"
           width="100%"
+          height="106px"
           justify="space-between"
           align="center"
-          marginTop="8"
-          height="100%"
+          borderBottomRightRadius="lg"
+          borderBottomLeftRadius="lg"
+          borderLeftColor="orange.500"
+          borderBottomColor="orange.500"
+          borderRightColor="orange.500"
+          borderWidth="1px"
+          overflow="hidden"
+          px="3"
         >
-          <Flex direction="column" bg="green.200">
-            <Text>City name</Text>
-            <Text>Country</Text>
+          <Flex direction="column">
+            <Text>London</Text>
+            <Text>United Kingdom</Text>
           </Flex>
-          <Text>FLAG</Text>
+          <Image
+            src={`https://restcountries.eu/data/GBR.svg`.toLowerCase()}
+            borderRadius="full"
+            boxSize="30px"
+          />
         </Flex>
-      </VStack>
+      </Flex>
     </Box>
   );
 }
