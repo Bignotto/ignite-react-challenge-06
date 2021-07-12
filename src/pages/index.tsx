@@ -6,23 +6,29 @@ import {
   HStack,
   useBreakpointValue,
   SimpleGrid,
+  Link as ChakraLink,
 } from "@chakra-ui/react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
 
+import Link from "next/link";
+
 import { CategoryButton } from "../components/CategoryButton";
 import { Header } from "../components/Header";
 import { GetServerSideProps } from "next";
+import { api } from "../services/api";
 
-type ContinentInfo = {
+type Continent = {
   id: number;
-  name: string;
-  description: string;
+  Name: string;
+  Description: string;
+  Continent: string;
+  imageUrl: string;
 };
 
 interface HomeProps {
-  continents: ContinentInfo[];
+  continents: Continent[];
 }
 
 SwiperCore.use([Navigation]);
@@ -111,46 +117,35 @@ export default function Home({ continents }: HomeProps) {
           pagination={{ clickable: true }}
           style={{ width: "100%", flex: "1" }}
         >
-          <SwiperSlide>
-            <Flex
-              bgSize="cover"
-              w="100%"
-              h="100%"
-              alignItems="center"
-              justify="center"
-              direction="column"
-              position="relative"
-            >
-              <Image src="/images/continents/africa01.jpg" />
-              <Box position="absolute">
-                <Text
-                  color="green.50"
-                  fontSize={["3xl", "7xl"]}
-                  fontWeight="bold"
+          {continents.map(continent => (
+            <SwiperSlide key={continent.id}>
+              <ChakraLink as={Link} href={`/continent/${continent.Continent}`}>
+                <Flex
+                  bgSize="cover"
+                  w="100%"
+                  h="100%"
+                  alignItems="center"
+                  justify="center"
+                  direction="column"
+                  position="relative"
                 >
-                  Africa
-                </Text>
-                <Text color="green.50" fontSize={["1xl", "4xl"]}>
-                  Selvagem e desafiador!
-                </Text>
-              </Box>
-            </Flex>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/continents/asia01.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/continents/europe04.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/continents/na04.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/continents/oceania03.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/continents/sa02.jpg" />
-          </SwiperSlide>
+                  <Image src={continent.imageUrl} />
+                  <Box position="absolute">
+                    <Text
+                      color="green.50"
+                      fontSize={["3xl", "7xl"]}
+                      fontWeight="bold"
+                    >
+                      {continent.Name}
+                    </Text>
+                    <Text color="green.50" fontSize={["1xl", "4xl"]}>
+                      {continent.Description}
+                    </Text>
+                  </Box>
+                </Flex>
+              </ChakraLink>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </Flex>
     </Flex>
@@ -158,7 +153,13 @@ export default function Home({ continents }: HomeProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async context => {
+  const response = await api.get("/continents");
+
+  const continents: Continent[] = response.data;
+
   return {
-    props: {},
+    props: {
+      continents,
+    },
   };
 };
