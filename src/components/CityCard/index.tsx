@@ -1,6 +1,18 @@
 import { Text, VStack, Box, Image, Flex } from "@chakra-ui/react";
 
-export function CityCard() {
+interface CityCardProps {
+  name: string;
+  country: string;
+  flagUrl: string;
+  cityImageUrl: string;
+}
+
+export function CityCard({
+  name,
+  country,
+  flagUrl,
+  cityImageUrl,
+}: CityCardProps) {
   return (
     <Box
       w="246px"
@@ -10,12 +22,7 @@ export function CityCard() {
       borderTopRightRadius="lg"
     >
       <Flex direction="column" align="center" gridGap="0">
-        <Image
-          src="/images/cities/london.jpg"
-          height={173}
-          width={256}
-          objectFit="cover"
-        />
+        <Image src={cityImageUrl} height={173} width={256} objectFit="cover" />
         <Flex
           direction="row"
           width="100%"
@@ -32,11 +39,11 @@ export function CityCard() {
           px="3"
         >
           <Flex direction="column">
-            <Text>London</Text>
-            <Text>United Kingdom</Text>
+            <Text>{name}</Text>
+            <Text>{country}</Text>
           </Flex>
           <Image
-            src={`https://restcountries.eu/data/GBR.svg`.toLowerCase()}
+            src={flagUrl.toLowerCase()}
             borderRadius="full"
             boxSize="30px"
           />

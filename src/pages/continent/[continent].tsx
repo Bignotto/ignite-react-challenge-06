@@ -84,11 +84,48 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
       </Flex>
       <Flex justify="center" width="100%" maxWidth={1159} marginTop="10" px="2">
         <SimpleGrid columns={[1, 4]} spacing="45px">
-          <CityCard />
-          <CityCard />
-          <CityCard />
-          <CityCard />
-          <CityCard />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
+          <CityCard
+            name="London"
+            country="United Kingdom"
+            cityImageUrl="/images/cities/london.jpg"
+            flagUrl="https://restcountries.eu/data/gbr.svg"
+          />
         </SimpleGrid>
       </Flex>
     </Center>
