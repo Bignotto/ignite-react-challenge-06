@@ -21,9 +21,9 @@ import { api } from "../services/api";
 
 type Continent = {
   id: number;
-  Name: string;
-  Description: string;
-  Continent: string;
+  name: string;
+  description: string;
+  continent: string;
   imageUrl: string;
 };
 
@@ -119,7 +119,7 @@ export default function Home({ continents }: HomeProps) {
         >
           {continents.map(continent => (
             <SwiperSlide key={continent.id}>
-              <ChakraLink as={Link} href={`/continent/${continent.Continent}`}>
+              <ChakraLink as={Link} href={`/continent/${continent.continent}`}>
                 <Flex
                   bgSize="cover"
                   w="100%"
@@ -136,10 +136,10 @@ export default function Home({ continents }: HomeProps) {
                       fontSize={["3xl", "7xl"]}
                       fontWeight="bold"
                     >
-                      {continent.Name}
+                      {continent.name}
                     </Text>
                     <Text color="green.50" fontSize={["1xl", "4xl"]}>
-                      {continent.Description}
+                      {continent.description}
                     </Text>
                   </Box>
                 </Flex>
