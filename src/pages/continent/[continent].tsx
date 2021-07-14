@@ -80,7 +80,11 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
               <Spacer />
               <Kpi value={continent.qtdLanguages} text="idiomas" />
               <Spacer />
-              <Kpi value={continent.cities.length} text="cidades +100" />
+              <Kpi
+                value={continent.cities.length}
+                text="cidades +100"
+                info="Cidades +100 são as 100 cidades mais visitadas do mundo."
+              />
             </HStack>
           </Flex>
         </Flex>
