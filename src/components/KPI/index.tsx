@@ -1,11 +1,13 @@
-import { Text, VStack, Box } from "@chakra-ui/react";
+import { Text, VStack, Box, Tooltip } from "@chakra-ui/react";
+import { InfoOutlineIcon } from "@chakra-ui/icons";
 
 type KpiProps = {
   value: number;
   text: string;
+  info?: string;
 };
 
-export function Kpi({ value, text }: KpiProps) {
+export function Kpi({ value, text, info }: KpiProps) {
   return (
     <VStack align={["flex-start", "center"]}>
       <Box>
@@ -20,7 +22,12 @@ export function Kpi({ value, text }: KpiProps) {
           lineHeight="shorter"
           fontWeight={["normal", "bold"]}
         >
-          {text}
+          {`${text}  `}
+          {info && (
+            <Tooltip label={info}>
+              <InfoOutlineIcon />
+            </Tooltip>
+          )}
         </Text>
       </Box>
     </VStack>
