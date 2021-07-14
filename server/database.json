@@ -2,51 +2,64 @@
   "continents": [
     {
       "id": 1,
-      "Continent": "Africa",
-      "Name": "África",
-      "Description": "Selvagem e desafiador.",
-      "QtdCountries": 54,
-      "Text": "A África é banhada pelo oceano Atlântico na sua costa ocidental e pelo oceano Índico do lado oriental. Ao norte, pelos mares Mediterrâneo e Vermelho e ao sul, pelo Mar Antártico."
+      "imageUrl": "/images/continents/africa01.jpg",
+      "continent": "africa",
+      "name": "África",
+      "description": "Selvagem e desafiador.",
+      "qtdCountries": 54,
+      "qtdLanguages": 197,
+      "text": "A África é banhada pelo oceano Atlântico na sua costa ocidental e pelo oceano Índico do lado oriental. Ao norte, pelos mares Mediterrâneo e Vermelho e ao sul, pelo Mar Antártico."
     },
     {
       "id": 2,
-      "Continent": "Asia",
-      "Name": "Ásia",
-      "Description": "O continente mais enigmático.",
-      "QtdCountries": 47,
-      "Text": "A Ásia é o maior continente, tanto em área (chega a quase um terço de todas as terras emersas do nosso planeta) como em população, onde habitam aproximadamente 4,5 bilhões de habitantes. Esse número que supera quase 50% da população do mundo, corresponde a 70 habitantes por quilômetro quadrado, aproximadamente três vezes maior que a densidade média da Terra."
+      "imageUrl": "/images/continents/asia01.jpg",
+      "continent": "asia",
+      "name": "Ásia",
+      "description": "O continente mais enigmático.",
+      "qtdCountries": 47,
+      "qtdLanguages": 199,
+
+      "text": "A Ásia é o maior continente, tanto em área (chega a quase um terço de todas as terras emersas do nosso planeta) como em população, onde habitam aproximadamente 4,5 bilhões de habitantes. Esse número que supera quase 50% da população do mundo, corresponde a 70 habitantes por quilômetro quadrado, aproximadamente três vezes maior que a densidade média da Terra."
     },
     {
       "id": 3,
-      "Continent": "Europe",
-      "Name": "Europa",
-      "Description": "O continente mais antigo.",
-      "QtdCountries": 43,
-      "Text": "A Europa é um continente que está localizado no hemisfério norte do globo terrestre. Compreende uma área total de 10.498.000 km2 e possui uma população de 744,7 milhões de habitantes."
+      "imageUrl": "/images/continents/europe04.jpg",
+      "continent": "europe",
+      "name": "Europa",
+      "description": "O continente mais antigo.",
+      "qtdCountries": 43,
+      "qtdLanguages": 72,
+      "text": "A europe é um continente que está localizado no hemisfério norte do globo terrestre. Compreende uma área total de 10.498.000 km2 e possui uma população de 744,7 milhões de habitantes."
     },
     {
       "id": 4,
-      "Continent": "NorthAmerica",
-      "Name": "América do Norte",
-      "Description": "Liberdade e modernidade.",
-      "QtdCountries": 4,
-      "Text": "Ele exibe extensas cadeias montanhosas tal qual os Montes Apalaches e as Montanhas Rochosas, as quais integram as Cordilheiras Ocidentais. No Canadá, se sobressaem os muitos lagos presentes naquela região (dois milhões de lagos, ou 7,6% do território do Canadá), alguns em estado de permafrost (lagos glaciais)."
+      "imageUrl": "/images/continents/na04.jpg",
+      "continent": "northamerica",
+      "name": "América do Norte",
+      "description": "Liberdade e modernidade.",
+      "qtdCountries": 4,
+      "qtdLanguages": 34,
+      "text": "Ele exibe extensas cadeias montanhosas tal qual os Montes Apalaches e as Montanhas Rochosas, as quais integram as Cordilheiras Ocidentais. No Canadá, se sobressaem os muitos lagos presentes naquela região (dois milhões de lagos, ou 7,6% do território do Canadá), alguns em estado de permafrost (lagos glaciais)."
     },
     {
       "id": 5,
-      "Continent": "SouthAmerica",
-      "Name": "América do Sul",
-      "Description": "O mais belo continente.",
-      "QtdCountries": 13,
-      "Text": "No norte, predomina a densa e úmida Floresta Amazônica, enquanto na área central temos os terrenos alagados que abarcam o Pantanal brasileiro e Chaco boliviano. Os países como a Argentina, o Uruguai, o Chile, e o Brasil possui forte ascendência europeia."
+      "imageUrl": "/images/continents/sa02.jpg",
+      "continent": "southamerica",
+      "name": "América do Sul",
+      "description": "O mais belo continente.",
+      "qtdCountries": 13,
+      "qtdLanguages": 34,
+      "text": "No norte, predomina a densa e úmida Floresta Amazônica, enquanto na área central temos os terrenos alagados que abarcam o Pantanal brasileiro e Chaco boliviano. Os países como a Argentina, o Uruguai, o Chile, e o Brasil possui forte ascendência europeia."
     },
     {
       "id": 6,
-      "Continent": "Oceania",
-      "Name": "Oceania",
-      "Description": "Contatos imediatos.",
-      "QtdCountries": 14,
-      "Text": "Com 14 Estados independentes, milhares de ilhas e uma biodiversidade bem distribuída pelos seus pouco mais de 8 milhões de km², a Oceania deixou no passado a ideia de que “o outro lado do mundo” só possui a Austrália e a Nova Zelândia como seus principais representantes turísticos."
+      "imageUrl": "/images/continents/oceania03.jpg",
+      "continent": "oceania",
+      "name": "oceania",
+      "description": "Contatos imediatos.",
+      "qtdCountries": 14,
+      "qtdLanguages": 38,
+      "text": "Com 14 Estados independentes, milhares de ilhas e uma biodiversidade bem distribuída pelos seus pouco mais de 8 milhões de km², a oceania deixou no passado a ideia de que “o outro lado do mundo” só possui a Austrália e a Nova Zelândia como seus principais representantes turísticos."
     }
   ],
   "cities": [
@@ -55,8 +68,9 @@
       "city": "Hong Kong",
       "country": "China",
       "arrivals": 29.26,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -64,8 +78,9 @@
       "city": "Bangkok",
       "country": "Thailand",
       "arrivals": 24.17,
-      "continent": "Asia",
-      "3code": "THA",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "THA",
       "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
@@ -73,8 +88,9 @@
       "city": "London",
       "country": "United Kingdom",
       "arrivals": 19.23,
-      "continent": "Europe",
-      "3code": "ARE",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ARE",
       "flag": "https://restcountries.eu/data/ARE.svg"
     },
     {
@@ -82,8 +98,9 @@
       "city": "Macau",
       "country": "China",
       "arrivals": 18.93,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -91,8 +108,9 @@
       "city": "Singapore",
       "country": "Singapore",
       "arrivals": 18.55,
-      "continent": "Asia",
-      "3code": "SGP",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SGP",
       "flag": "https://restcountries.eu/data/SGP.svg"
     },
     {
@@ -100,8 +118,9 @@
       "city": "Paris",
       "country": "France",
       "arrivals": 17.56,
-      "continent": "Europe",
-      "3code": "FRA",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "FRA",
       "flag": "https://restcountries.eu/data/FRA.svg"
     },
     {
@@ -109,8 +128,9 @@
       "city": "Dubai",
       "country": "UAE",
       "arrivals": 15.92,
-      "continent": "Asia",
-      "3code": "TUV",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "TUV",
       "flag": "https://restcountries.eu/data/TUV.svg"
     },
     {
@@ -118,17 +138,19 @@
       "city": "New York City",
       "country": "US",
       "arrivals": 13.6,
-      "continent": "NorthAmerica",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 9,
       "city": "Kuala Lumpur",
       "country": "Malaysia",
       "arrivals": 13.43,
-      "continent": "Asia",
-      "3code": "MYS",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "MYS",
       "flag": "https://restcountries.eu/data/MYS.svg"
     },
     {
@@ -136,8 +158,9 @@
       "city": "Istanbul",
       "country": "Turkey",
       "arrivals": 13.43,
-      "continent": "Europa",
-      "3code": "TUR",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "TUR",
       "flag": "https://restcountries.eu/data/TUR.svg"
     },
     {
@@ -145,8 +168,9 @@
       "city": "Delhi",
       "country": "India",
       "arrivals": 12.65,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
@@ -154,8 +178,9 @@
       "city": "Antalya",
       "country": "Turkey",
       "arrivals": 12.44,
-      "continent": "Asia",
-      "3code": "TUR",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "TUR",
       "flag": "https://restcountries.eu/data/TUR.svg"
     },
     {
@@ -163,8 +188,9 @@
       "city": "Shenzhen",
       "country": "China",
       "arrivals": 12.2,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -172,8 +198,9 @@
       "city": "Mumbai",
       "country": "India",
       "arrivals": 10.59,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
@@ -181,8 +208,9 @@
       "city": "Phuket",
       "country": "Thailand",
       "arrivals": 10.55,
-      "continent": "Asia",
-      "3code": "THA",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "THA",
       "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
@@ -190,8 +218,9 @@
       "city": "Rome",
       "country": "Italy",
       "arrivals": 10.07,
-      "continent": "Europe",
-      "3code": "ITA",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ITA",
       "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
@@ -199,8 +228,9 @@
       "city": "Tokyo",
       "country": "Japan",
       "arrivals": 9.99,
-      "continent": "Asia",
-      "3code": "JPN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "JPN",
       "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
@@ -208,8 +238,9 @@
       "city": "Pattaya",
       "country": "Thailand",
       "arrivals": 9.61,
-      "continent": "Asia",
-      "3code": "THA",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "THA",
       "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
@@ -217,8 +248,9 @@
       "city": "Taipei",
       "country": "Taiwan",
       "arrivals": 9.6,
-      "continent": "Asia",
-      "3code": "SYR",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SYR",
       "flag": "https://restcountries.eu/data/SYR.svg"
     },
     {
@@ -226,8 +258,9 @@
       "city": "Mecca",
       "country": "Saudi Arabia",
       "arrivals": 9.57,
-      "continent": "Asia",
-      "3code": "SAU",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SAU",
       "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
@@ -235,8 +268,9 @@
       "city": "Guangzhou",
       "country": "China",
       "arrivals": 9,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -244,8 +278,9 @@
       "city": "Prague",
       "country": "Czechia",
       "arrivals": 8.95,
-      "continent": "Europe",
-      "3code": "CZE",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "CZE",
       "flag": "https://restcountries.eu/data/CZE.svg"
     },
     {
@@ -253,8 +288,9 @@
       "city": "Medina",
       "country": "Saudi Arabia",
       "arrivals": 8.55,
-      "continent": "Asia",
-      "3code": "SAU",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SAU",
       "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
@@ -262,8 +298,9 @@
       "city": "Seoul",
       "country": "South Korea",
       "arrivals": 8.43,
-      "continent": "Asia",
-      "3code": "SGS",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SGS",
       "flag": "https://restcountries.eu/data/SGS.svg"
     },
     {
@@ -271,17 +308,19 @@
       "city": "Amsterdam",
       "country": "Netherlands",
       "arrivals": 8.35,
-      "continent": "Europe",
-      "3code": "NPL",
-      "flag": "https://restcountries.eu/data/NPL.svg"
+      "continent": "europe",
+      "continentId": 3,
+      "code": "NLD",
+      "flag": "https://restcountries.eu/data/NLD.svg"
     },
     {
       "id": 26,
       "city": "Agra",
       "country": "India",
       "arrivals": 8.14,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
@@ -289,17 +328,19 @@
       "city": "Miami",
       "country": "US",
       "arrivals": 8.12,
-      "continent": "NorthAmerica",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 28,
       "city": "Osaka",
       "country": "Japan",
       "arrivals": 7.86,
-      "continent": "Asia",
-      "3code": "JPN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "JPN",
       "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
@@ -307,17 +348,19 @@
       "city": "Los Angeles",
       "country": "US",
       "arrivals": 7.5,
-      "continent": "NorthAmerica",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 30,
       "city": "Shanghai",
       "country": "China",
       "arrivals": 7.48,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -325,8 +368,9 @@
       "city": "Ho Chi Minh City",
       "country": "Vietnam",
       "arrivals": 7.2,
-      "continent": "Asia",
-      "3code": "VNM",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "VNM",
       "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
@@ -334,8 +378,9 @@
       "city": "Denpasar",
       "country": "Indonesia",
       "arrivals": 7.19,
-      "continent": "Oceania",
-      "3code": "IDN",
+      "continent": "oceania",
+      "continentId": 6,
+      "code": "IDN",
       "flag": "https://restcountries.eu/data/IDN.svg"
     },
     {
@@ -343,8 +388,9 @@
       "city": "Barcelona",
       "country": "Spain",
       "arrivals": 6.71,
-      "continent": "Europe",
-      "3code": "ESP",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ESP",
       "flag": "https://restcountries.eu/data/ESP.svg"
     },
     {
@@ -352,17 +398,19 @@
       "city": "Las Vegas",
       "country": "US",
       "arrivals": 6.59,
-      "continent": "NorthAmerica",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 35,
       "city": "Milan",
       "country": "Italy",
       "arrivals": 6.48,
-      "continent": "Europe",
-      "3code": "ITA",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ITA",
       "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
@@ -370,8 +418,9 @@
       "city": "Chennai",
       "country": "India",
       "arrivals": 6.42,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
@@ -379,8 +428,9 @@
       "city": "Vienna",
       "country": "Austria",
       "arrivals": 6.41,
-      "continent": "Europe",
-      "3code": "AUT",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "AUT",
       "flag": "https://restcountries.eu/data/AUT.svg"
     },
     {
@@ -388,8 +438,9 @@
       "city": "Johor Bahru",
       "country": "Malaysia",
       "arrivals": 6.4,
-      "continent": "Asia",
-      "3code": "MYS",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "MYS",
       "flag": "https://restcountries.eu/data/MYS.svg"
     },
     {
@@ -397,8 +448,9 @@
       "city": "Jaipur",
       "country": "India",
       "arrivals": 6.38,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
@@ -406,8 +458,9 @@
       "city": "Cancun",
       "country": "Mexico",
       "arrivals": 6.04,
-      "continent": "NorthAmerica",
-      "3code": "MEX",
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "MEX",
       "flag": "https://restcountries.eu/data/MEX.svg"
     },
     {
@@ -415,8 +468,9 @@
       "city": "Berlin",
       "country": "Germany",
       "arrivals": 5.96,
-      "continent": "Europe",
-      "3code": "DEU",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "DEU",
       "flag": "https://restcountries.eu/data/DEU.svg"
     },
     {
@@ -425,7 +479,8 @@
       "country": "Egypt",
       "arrivals": 5.75,
       "continent": "Africa",
-      "3code": "EGY",
+      "continentId": 1,
+      "code": "EGY",
       "flag": "https://restcountries.eu/data/EGY.svg"
     },
     {
@@ -433,8 +488,9 @@
       "city": "Athens",
       "country": "Greece",
       "arrivals": 5.73,
-      "continent": "Europe",
-      "3code": "GRC",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "GRC",
       "flag": "https://restcountries.eu/data/GRC.svg"
     },
     {
@@ -442,17 +498,19 @@
       "city": "Orlando",
       "country": "US",
       "arrivals": 5.55,
-      "continent": "NorthAmerica",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 45,
       "city": "Moscow",
       "country": "Russia",
       "arrivals": 5.51,
-      "continent": "Europe",
-      "3code": "ROU",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ROU",
       "flag": "https://restcountries.eu/data/ROU.svg"
     },
     {
@@ -460,8 +518,9 @@
       "city": "Venice",
       "country": "Italy",
       "arrivals": 5.5,
-      "continent": "Europe",
-      "3code": "ITA",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ITA",
       "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
@@ -469,8 +528,9 @@
       "city": "Madrid",
       "country": "Spain",
       "arrivals": 5.44,
-      "continent": "Europe",
-      "3code": "ESP",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ESP",
       "flag": "https://restcountries.eu/data/ESP.svg"
     },
     {
@@ -478,8 +538,9 @@
       "city": "Ha Long",
       "country": "Vietnam",
       "arrivals": 5.29,
-      "continent": "Asia",
-      "3code": "VNM",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "VNM",
       "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
@@ -487,8 +548,9 @@
       "city": "Riyadh",
       "country": "Saudi Arabia",
       "arrivals": 5.27,
-      "continent": "Asia",
-      "3code": "SAU",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SAU",
       "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
@@ -496,8 +558,9 @@
       "city": "Dublin",
       "country": "Ireland",
       "arrivals": 5.21,
-      "continent": "Europe",
-      "3code": "IRL",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "IRL",
       "flag": "https://restcountries.eu/data/IRL.svg"
     },
     {
@@ -505,8 +568,9 @@
       "city": "Florence",
       "country": "Italy",
       "arrivals": 5.06,
-      "continent": "Europe",
-      "3code": "ITA",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ITA",
       "flag": "https://restcountries.eu/data/ITA.svg"
     },
     {
@@ -514,8 +578,9 @@
       "city": "Ha Noi",
       "country": "Vietnam",
       "arrivals": 4.69,
-      "continent": "Asia",
-      "3code": "VNM",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "VNM",
       "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
@@ -523,8 +588,9 @@
       "city": "Toronto",
       "country": "Canada",
       "arrivals": 4.51,
-      "continent": "NorthAmerica",
-      "3code": "CAN",
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "CAN",
       "flag": "https://restcountries.eu/data/CAN.svg"
     },
     {
@@ -533,7 +599,8 @@
       "country": "South Africa",
       "arrivals": 4.12,
       "continent": "Africa",
-      "3code": "ZAF",
+      "continentId": 1,
+      "code": "ZAF",
       "flag": "https://restcountries.eu/data/ZAF.svg"
     },
     {
@@ -541,8 +608,9 @@
       "city": "Sydney",
       "country": "Australia",
       "arrivals": 4.09,
-      "continent": "Oceania",
-      "3code": "AUS",
+      "continent": "oceania",
+      "continentId": 6,
+      "code": "AUS",
       "flag": "https://restcountries.eu/data/AUS.svg"
     },
     {
@@ -550,8 +618,9 @@
       "city": "Munich",
       "country": "Germany",
       "arrivals": 4.06,
-      "continent": "Europe",
-      "3code": "DEU",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "DEU",
       "flag": "https://restcountries.eu/data/DEU.svg"
     },
     {
@@ -559,8 +628,9 @@
       "city": "Jakarta",
       "country": "Indonesia",
       "arrivals": 4.03,
-      "continent": "Asia",
-      "3code": "IDN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IDN",
       "flag": "https://restcountries.eu/data/IDN.svg"
     },
     {
@@ -568,8 +638,9 @@
       "city": "Beijing",
       "country": "China",
       "arrivals": 4,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -577,8 +648,9 @@
       "city": "St. Petersburg",
       "country": "Russia",
       "arrivals": 4,
-      "continent": "Europe",
-      "3code": "ROU",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "ROU",
       "flag": "https://restcountries.eu/data/ROU.svg"
     },
     {
@@ -586,8 +658,9 @@
       "city": "Brussels",
       "country": "Belgium",
       "arrivals": 3.94,
-      "continent": "Europe",
-      "3code": "BEL",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "BEL",
       "flag": "https://restcountries.eu/data/BEL.svg"
     },
     {
@@ -595,8 +668,9 @@
       "city": "Jerusalem",
       "country": "Israel",
       "arrivals": 3.93,
-      "continent": "Asia",
-      "3code": "ISR",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "ISR",
       "flag": "https://restcountries.eu/data/ISR.svg"
     },
     {
@@ -604,8 +678,9 @@
       "city": "Budapest",
       "country": "Hungary",
       "arrivals": 3.82,
-      "continent": "Europe",
-      "3code": "HUN",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "HUN",
       "flag": "https://restcountries.eu/data/HUN.svg"
     },
     {
@@ -613,8 +688,9 @@
       "city": "Lisbon",
       "country": "Portugal",
       "arrivals": 3.54,
-      "continent": "Europe",
-      "3code": "PRT",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "PRT",
       "flag": "https://restcountries.eu/data/PRT.svg"
     },
     {
@@ -622,8 +698,9 @@
       "city": "Dammam",
       "country": "Saudi Arabia",
       "arrivals": 3.5,
-      "continent": "Asia",
-      "3code": "SAU",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SAU",
       "flag": "https://restcountries.eu/data/SAU.svg"
     },
     {
@@ -631,8 +708,9 @@
       "city": "Penang Island",
       "country": "Malaysia",
       "arrivals": 3.44,
-      "continent": "Asia",
-      "3code": "MYS",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "MYS",
       "flag": "https://restcountries.eu/data/MYS.svg"
     },
     {
@@ -640,8 +718,9 @@
       "city": "Heraklion",
       "country": "Greece",
       "arrivals": 3.4,
-      "continent": "Europe",
-      "3code": "GRC",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "GRC",
       "flag": "https://restcountries.eu/data/GRC.svg"
     },
     {
@@ -649,8 +728,9 @@
       "city": "Kyoto",
       "country": "Japan",
       "arrivals": 3.29,
-      "continent": "Asia",
-      "3code": "JPN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "JPN",
       "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
@@ -658,8 +738,9 @@
       "city": "Zhuhai",
       "country": "China",
       "arrivals": 3.26,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -667,8 +748,9 @@
       "city": "Vancouver",
       "country": "Canada",
       "arrivals": 3.21,
-      "continent": "NorthAmerica",
-      "3code": "CAN",
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "CAN",
       "flag": "https://restcountries.eu/data/CAN.svg"
     },
     {
@@ -676,8 +758,9 @@
       "city": "Chiang Mai",
       "country": "Thailand",
       "arrivals": 3.2,
-      "continent": "Asia",
-      "3code": "THA",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "THA",
       "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
@@ -685,8 +768,9 @@
       "city": "Copenhagen",
       "country": "Denmark",
       "arrivals": 3.07,
-      "continent": "Europe",
-      "3code": "DNK",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "DNK",
       "flag": "https://restcountries.eu/data/DNK.svg"
     },
     {
@@ -694,17 +778,19 @@
       "city": "San Francisco",
       "country": "US",
       "arrivals": 2.9,
-      "continent": "NorthAmerica",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "northamerica",
+      "continentId": 4,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 73,
       "city": "Melbourne",
       "country": "Australia",
       "arrivals": 2.89,
-      "continent": "Oceania",
-      "3code": "AUS",
+      "continent": "oceania",
+      "continentId": 6,
+      "code": "AUS",
       "flag": "https://restcountries.eu/data/AUS.svg"
     },
     {
@@ -712,8 +798,9 @@
       "city": "Krakow",
       "country": "Poland",
       "arrivals": 2.85,
-      "continent": "Europe",
-      "3code": "POL",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "POL",
       "flag": "https://restcountries.eu/data/POL.svg"
     },
     {
@@ -722,7 +809,8 @@
       "country": "Morocco",
       "arrivals": 2.84,
       "continent": "Africa",
-      "3code": "MAR",
+      "continentId": 1,
+      "code": "MAR",
       "flag": "https://restcountries.eu/data/MAR.svg"
     },
     {
@@ -730,8 +818,9 @@
       "city": "Kolkatta",
       "country": "India",
       "arrivals": 2.83,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     },
     {
@@ -739,8 +828,9 @@
       "city": "Cebu",
       "country": "Philippines",
       "arrivals": 2.81,
-      "continent": "Asia",
-      "3code": "PER",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "PER",
       "flag": "https://restcountries.eu/data/PER.svg"
     },
     {
@@ -748,8 +838,9 @@
       "city": "Auckland",
       "country": "New Zealand",
       "arrivals": 2.8,
-      "continent": "Oceania",
-      "3code": "NZL",
+      "continent": "oceania",
+      "continentId": 6,
+      "code": "NZL",
       "flag": "https://restcountries.eu/data/NZL.svg"
     },
     {
@@ -757,8 +848,9 @@
       "city": "Tel Aviv",
       "country": "Israel",
       "arrivals": 2.78,
-      "continent": "Asia",
-      "3code": "ISR",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "ISR",
       "flag": "https://restcountries.eu/data/ISR.svg"
     },
     {
@@ -766,8 +858,9 @@
       "city": "Guilin",
       "country": "China",
       "arrivals": 2.75,
-      "continent": "Asia",
-      "3code": "CHN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "CHN",
       "flag": "https://restcountries.eu/data/CHN.svg"
     },
     {
@@ -775,9 +868,10 @@
       "city": "Honolulu",
       "country": "US",
       "arrivals": 2.74,
-      "continent": "Oceania",
-      "3code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "continent": "oceania",
+      "continentId": 6,
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 82,
@@ -785,7 +879,8 @@
       "country": "Egypt",
       "arrivals": 2.74,
       "continent": "Africa",
-      "3code": "EGY",
+      "continentId": 1,
+      "code": "EGY",
       "flag": "https://restcountries.eu/data/EGY.svg"
     },
     {
@@ -793,8 +888,9 @@
       "city": "Warsaw",
       "country": "Poland",
       "arrivals": 2.73,
-      "continent": "Europe",
-      "3code": "POL",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "POL",
       "flag": "https://restcountries.eu/data/POL.svg"
     },
     {
@@ -802,8 +898,9 @@
       "city": "Mugla",
       "country": "Turkey",
       "arrivals": 2.72,
-      "continent": "Asia",
-      "3code": "TUR",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "TUR",
       "flag": "https://restcountries.eu/data/TUR.svg"
     },
     {
@@ -811,8 +908,9 @@
       "city": "Buenos Aires City",
       "country": "Argentina",
       "arrivals": 2.69,
-      "continent": "SouthAmerica",
-      "3code": "ARG",
+      "continent": "southamerica",
+      "continentId": 5,
+      "code": "ARG",
       "flag": "https://restcountries.eu/data/ARG.svg"
     },
     {
@@ -820,8 +918,9 @@
       "city": "Chiba",
       "country": "Japan",
       "arrivals": 2.68,
-      "continent": "Asia",
-      "3code": "JPN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "JPN",
       "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
@@ -829,8 +928,9 @@
       "city": "Fidfurt",
       "country": "Germany",
       "arrivals": 2.64,
-      "continent": "Europe",
-      "3code": "DEU",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "DEU",
       "flag": "https://restcountries.eu/data/DEU.svg"
     },
     {
@@ -838,8 +938,9 @@
       "city": "Stockholm",
       "country": "Sweden",
       "arrivals": 2.6,
-      "continent": "Europe",
-      "3code": "SWE",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "SWE",
       "flag": "https://restcountries.eu/data/SWE.svg"
     },
     {
@@ -847,8 +948,9 @@
       "city": "Lima",
       "country": "Peru",
       "arrivals": 2.54,
-      "continent": "SouthAmerica",
-      "3code": "PER",
+      "continent": "southamerica",
+      "continentId": 5,
+      "code": "PER",
       "flag": "https://restcountries.eu/data/PER.svg"
     },
     {
@@ -856,8 +958,9 @@
       "city": "Da Nang",
       "country": "Vietnam",
       "arrivals": 2.51,
-      "continent": "Asia",
-      "3code": "VNM",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "VNM",
       "flag": "https://restcountries.eu/data/VNM.svg"
     },
     {
@@ -865,8 +968,9 @@
       "city": "Batam",
       "country": "Indonesia",
       "arrivals": 2.49,
-      "continent": "Asia",
-      "3code": "IDN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IDN",
       "flag": "https://restcountries.eu/data/IDN.svg"
     },
     {
@@ -874,8 +978,9 @@
       "city": "Nice",
       "country": "France",
       "arrivals": 2.47,
-      "continent": "Europe",
-      "3code": "FRA",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "FRA",
       "flag": "https://restcountries.eu/data/FRA.svg"
     },
     {
@@ -883,8 +988,9 @@
       "city": "Fukuoka",
       "country": "Japan",
       "arrivals": 2.44,
-      "continent": "Asia",
-      "3code": "JPN",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "JPN",
       "flag": "https://restcountries.eu/data/JPN.svg"
     },
     {
@@ -892,8 +998,9 @@
       "city": "Abu Dhabi",
       "country": "UAE",
       "arrivals": 2.4,
-      "continent": "Asia",
-      "3code": "TUV",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "TUV",
       "flag": "https://restcountries.eu/data/TUV.svg"
     },
     {
@@ -901,8 +1008,9 @@
       "city": "Jeju",
       "country": "South Korea",
       "arrivals": 2.35,
-      "continent": "Asia",
-      "3code": "SGS",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "SGS",
       "flag": "https://restcountries.eu/data/SGS.svg"
     },
     {
@@ -910,8 +1018,9 @@
       "city": "Porto",
       "country": "Portugal",
       "arrivals": 2.34,
-      "continent": "Europe",
-      "3code": "PRT",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "PRT",
       "flag": "https://restcountries.eu/data/PRT.svg"
     },
     {
@@ -919,8 +1028,9 @@
       "city": "Rhodes",
       "country": "Greece",
       "arrivals": 2.34,
-      "continent": "Europe",
-      "3code": "GRC",
+      "continent": "europe",
+      "continentId": 3,
+      "code": "GRC",
       "flag": "https://restcountries.eu/data/GRC.svg"
     },
     {
@@ -928,8 +1038,9 @@
       "city": "Rio de Janeiro",
       "country": "Brazil",
       "arrivals": 2.28,
-      "continent": "SouthAmerica",
-      "3code": "BRA",
+      "continent": "southamerica",
+      "continentId": 5,
+      "code": "BRA",
       "flag": "https://restcountries.eu/data/BRA.svg"
     },
     {
@@ -937,8 +1048,9 @@
       "city": "Krabi",
       "country": "Thailand",
       "arrivals": 2.26,
-      "continent": "Asia",
-      "3code": "THA",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "THA",
       "flag": "https://restcountries.eu/data/THA.svg"
     },
     {
@@ -946,8 +1058,9 @@
       "city": "Bangalore",
       "country": "India",
       "arrivals": 2.24,
-      "continent": "Asia",
-      "3code": "IND",
+      "continent": "asia",
+      "continentId": 2,
+      "code": "IND",
       "flag": "https://restcountries.eu/data/IND.svg"
     }
   ]
