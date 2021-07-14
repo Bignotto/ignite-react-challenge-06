@@ -33,6 +33,7 @@ type Continent = {
   name: string;
   description: string;
   qtdCountries: number;
+  qtdLanguages: number;
   text: string;
   cities: City[];
 };
@@ -42,7 +43,6 @@ interface ContinentPageProps {
 }
 
 export default function ContinentPage({ continent }: ContinentPageProps) {
-  console.log(continent.cities);
   return (
     <Center flexDirection="column">
       <Header />
@@ -78,7 +78,7 @@ export default function ContinentPage({ continent }: ContinentPageProps) {
             <HStack gridGap={[2, 8]}>
               <Kpi value={continent.qtdCountries} text="países" />
               <Spacer />
-              <Kpi value={78} text="idiomas" />
+              <Kpi value={continent.qtdLanguages} text="idiomas" />
               <Spacer />
               <Kpi value={continent.cities.length} text="cidades +100" />
             </HStack>

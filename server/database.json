@@ -7,6 +7,7 @@
       "name": "África",
       "description": "Selvagem e desafiador.",
       "qtdCountries": 54,
+      "qtdLanguages": 197,
       "text": "A África é banhada pelo oceano Atlântico na sua costa ocidental e pelo oceano Índico do lado oriental. Ao norte, pelos mares Mediterrâneo e Vermelho e ao sul, pelo Mar Antártico."
     },
     {
@@ -16,15 +17,18 @@
       "name": "Ásia",
       "description": "O continente mais enigmático.",
       "qtdCountries": 47,
+      "qtdLanguages": 199,
+
       "text": "A Ásia é o maior continente, tanto em área (chega a quase um terço de todas as terras emersas do nosso planeta) como em população, onde habitam aproximadamente 4,5 bilhões de habitantes. Esse número que supera quase 50% da população do mundo, corresponde a 70 habitantes por quilômetro quadrado, aproximadamente três vezes maior que a densidade média da Terra."
     },
     {
       "id": 3,
       "imageUrl": "/images/continents/europe04.jpg",
       "continent": "europe",
-      "name": "europe",
+      "name": "Europa",
       "description": "O continente mais antigo.",
       "qtdCountries": 43,
+      "qtdLanguages": 72,
       "text": "A europe é um continente que está localizado no hemisfério norte do globo terrestre. Compreende uma área total de 10.498.000 km2 e possui uma população de 744,7 milhões de habitantes."
     },
     {
@@ -34,6 +38,7 @@
       "name": "América do Norte",
       "description": "Liberdade e modernidade.",
       "qtdCountries": 4,
+      "qtdLanguages": 34,
       "text": "Ele exibe extensas cadeias montanhosas tal qual os Montes Apalaches e as Montanhas Rochosas, as quais integram as Cordilheiras Ocidentais. No Canadá, se sobressaem os muitos lagos presentes naquela região (dois milhões de lagos, ou 7,6% do território do Canadá), alguns em estado de permafrost (lagos glaciais)."
     },
     {
@@ -43,6 +48,7 @@
       "name": "América do Sul",
       "description": "O mais belo continente.",
       "qtdCountries": 13,
+      "qtdLanguages": 34,
       "text": "No norte, predomina a densa e úmida Floresta Amazônica, enquanto na área central temos os terrenos alagados que abarcam o Pantanal brasileiro e Chaco boliviano. Os países como a Argentina, o Uruguai, o Chile, e o Brasil possui forte ascendência europeia."
     },
     {
@@ -52,6 +58,7 @@
       "name": "oceania",
       "description": "Contatos imediatos.",
       "qtdCountries": 14,
+      "qtdLanguages": 38,
       "text": "Com 14 Estados independentes, milhares de ilhas e uma biodiversidade bem distribuída pelos seus pouco mais de 8 milhões de km², a oceania deixou no passado a ideia de que “o outro lado do mundo” só possui a Austrália e a Nova Zelândia como seus principais representantes turísticos."
     }
   ],
@@ -133,8 +140,8 @@
       "arrivals": 13.6,
       "continent": "northamerica",
       "continentId": 4,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 9,
@@ -303,8 +310,8 @@
       "arrivals": 8.35,
       "continent": "europe",
       "continentId": 3,
-      "code": "NPL",
-      "flag": "https://restcountries.eu/data/NPL.svg"
+      "code": "NLD",
+      "flag": "https://restcountries.eu/data/NLD.svg"
     },
     {
       "id": 26,
@@ -323,8 +330,8 @@
       "arrivals": 8.12,
       "continent": "northamerica",
       "continentId": 4,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 28,
@@ -343,8 +350,8 @@
       "arrivals": 7.5,
       "continent": "northamerica",
       "continentId": 4,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 30,
@@ -393,8 +400,8 @@
       "arrivals": 6.59,
       "continent": "northamerica",
       "continentId": 4,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 35,
@@ -493,8 +500,8 @@
       "arrivals": 5.55,
       "continent": "northamerica",
       "continentId": 4,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 45,
@@ -773,8 +780,8 @@
       "arrivals": 2.9,
       "continent": "northamerica",
       "continentId": 4,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 73,
@@ -863,8 +870,8 @@
       "arrivals": 2.74,
       "continent": "oceania",
       "continentId": 6,
-      "code": "URY",
-      "flag": "https://restcountries.eu/data/URY.svg"
+      "code": "USA",
+      "flag": "https://restcountries.eu/data/USA.svg"
     },
     {
       "id": 82,
